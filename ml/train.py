@@ -104,14 +104,29 @@ def main():
     infer_model = keras.Model(inp, head(base(inp, training=False)))
 
     train_ds, val_ds = dataset(train_p, train_y, shuffle=True), dataset(val_p, val_y)
-    history = {}
+    # a CPU run takes hours, so every phase checkpoints and a rerun picks up where it stopped
+    ckpt = data / "ckpt"
+    ckpt.mkdir(exist_ok=True)
+    hist_file = ckpt / "history.json"
+    history = json.loads(hist_file.read_text()) if hist_file.exists() else {}
 
     def fit(epochs, lr, tag):
+        weights = ckpt / f"{tag}.weights.h5"
+        if tag in history and weights.exists():
+            train_model.load_weights(weights)
+            print(tag, "already trained, loaded", weights, flush=True)
+            return
+        if weights.exists():
+            train_model.load_weights(weights)  # best epoch of a run that crashed part way
         train_model.compile(keras.optimizers.Adam(lr), "sparse_categorical_crossentropy", metrics=["accuracy"])
         t = time.time()
         h = train_model.fit(train_ds, validation_data=val_ds, epochs=epochs, class_weight=class_weight, verbose=2,
-                            callbacks=[keras.callbacks.EarlyStopping("val_accuracy", patience=2, restore_best_weights=True)])
+                            callbacks=[keras.callbacks.EarlyStopping("val_accuracy", patience=2, restore_best_weights=True),
+                                       keras.callbacks.ModelCheckpoint(weights, "val_accuracy", save_best_only=True,
+                                                                       save_weights_only=True)])
+        train_model.save_weights(weights)
         history[tag] = {k: [float(x) for x in v] for k, v in h.history.items()}
+        hist_file.write_text(json.dumps(history))
         print(tag, "done in", round((time.time() - t) / 60), "min", flush=True)
 
     # 1) train only the new head, 2) unfreeze the top of the backbone and fine-tune gently
@@ -119,7 +134,7 @@ def main():
     base.trainable = True
     for layer in base.layers[:-60]:
         layer.trainable = False
-    fit(6, 1e-4, "finetune")
+    fit(5, 1e-4, "finetune")
 
     # export with dynamic-range quantization (int8 weights, float math): ~4x smaller, same accuracy
     converter = tf.lite.TFLiteConverter.from_keras_model(infer_model)
