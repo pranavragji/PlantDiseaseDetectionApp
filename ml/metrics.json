@@ -1,0 +1,372 @@
+{
+ "classes": 92,
+ "crops": 25,
+ "train_images": 48318,
+ "val_images": 5750,
+ "test_images": 5448,
+ "test_top1": 0.9594346549192364,
+ "test_top3": 0.9959618208516887,
+ "test_top1_plant_picked": 0.9618208516886931,
+ "model_mb": 3.39,
+ "per_crop": {
+  "apple": {
+   "acc": 0.9963570127504554,
+   "n": 549
+  },
+  "banana": {
+   "acc": 0.978494623655914,
+   "n": 93
+  },
+  "bean": {
+   "acc": 0.9024390243902439,
+   "n": 123
+  },
+  "bell_pepper": {
+   "acc": 1.0,
+   "n": 204
+  },
+  "blueberry": {
+   "acc": 1.0,
+   "n": 91
+  },
+  "cherry": {
+   "acc": 1.0,
+   "n": 192
+  },
+  "chili": {
+   "acc": 0.7407407407407407,
+   "n": 54
+  },
+  "corn": {
+   "acc": 0.9649122807017544,
+   "n": 342
+  },
+  "eggplant": {
+   "acc": 0.7291666666666666,
+   "n": 288
+  },
+  "grape": {
+   "acc": 0.9875444839857651,
+   "n": 562
+  },
+  "money_plant": {
+   "acc": 1.0,
+   "n": 30
+  },
+  "none": {
+   "acc": 0.9759036144578314,
+   "n": 83
+  },
+  "onion": {
+   "acc": 0.8571428571428571,
+   "n": 91
+  },
+  "orange": {
+   "acc": 1.0,
+   "n": 95
+  },
+  "papaya": {
+   "acc": 0.9932432432432432,
+   "n": 148
+  },
+  "peach": {
+   "acc": 1.0,
+   "n": 116
+  },
+  "plum": {
+   "acc": 0.9963503649635036,
+   "n": 274
+  },
+  "potato": {
+   "acc": 0.9850746268656716,
+   "n": 201
+  },
+  "raspberry": {
+   "acc": 1.0,
+   "n": 34
+  },
+  "rose": {
+   "acc": 0.9964539007092199,
+   "n": 282
+  },
+  "soybean": {
+   "acc": 1.0,
+   "n": 107
+  },
+  "spinach": {
+   "acc": 0.8122605363984674,
+   "n": 261
+  },
+  "squash": {
+   "acc": 1.0,
+   "n": 93
+  },
+  "strawberry": {
+   "acc": 1.0,
+   "n": 143
+  },
+  "tomato": {
+   "acc": 0.9755555555555555,
+   "n": 900
+  },
+  "turmeric": {
+   "acc": 0.9782608695652174,
+   "n": 92
+  }
+ },
+ "per_source": {
+  "BananaLSD_le": {
+   "acc": 0.978494623655914,
+   "n": 93
+  },
+  "COLD_chili_l": {
+   "acc": 0.7407407407407407,
+   "n": 54
+  },
+  "COLD_onion_l": {
+   "acc": 0.8571428571428571,
+   "n": 91
+  },
+  "IDDMSLD_spin": {
+   "acc": 0.8122605363984674,
+   "n": 261
+  },
+  "apple_leaf_d": {
+   "acc": 0.9968152866242038,
+   "n": 314
+  },
+  "beans": {
+   "acc": 0.9024390243902439,
+   "n": 123
+  },
+  "eggplant_dis": {
+   "acc": 0.7291666666666666,
+   "n": 288
+  },
+  "grape_leaf_d": {
+   "acc": 0.9821428571428571,
+   "n": 224
+  },
+  "money_plant_": {
+   "acc": 1.0,
+   "n": 30
+  },
+  "papaya_leaf_": {
+   "acc": 0.9932432432432432,
+   "n": 148
+  },
+  "plant_villag": {
+   "acc": 0.9864524259609325,
+   "n": 3174
+  },
+  "plum_leaf_fr": {
+   "acc": 0.9963503649635036,
+   "n": 274
+  },
+  "roseleafset_": {
+   "acc": 0.9964539007092199,
+   "n": 282
+  },
+  "turmeric_lea": {
+   "acc": 0.9782608695652174,
+   "n": 92
+  }
+ },
+ "per_class": {
+  "apple__alternaria_leaf_spot": 1.0,
+  "apple__black_rot": 1.0,
+  "apple__cedar_rust": 1.0,
+  "apple__healthy": 0.9906542056074766,
+  "apple__mosaic_virus": 1.0,
+  "apple__scab": 1.0,
+  "banana__cordana_leaf_spot": 1.0,
+  "banana__healthy": 0.8571428571428571,
+  "banana__pestalotiopsis": 0.9444444444444444,
+  "banana__sigatoka": 1.0,
+  "bean__angular_leaf_spot": 0.925,
+  "bean__healthy": 0.9736842105263158,
+  "bean__rust": 0.8222222222222222,
+  "bell_pepper__bacterial_spot": 1.0,
+  "bell_pepper__healthy": 1.0,
+  "blueberry__healthy": 1.0,
+  "cherry__healthy": 1.0,
+  "cherry__powdery_mildew": 1.0,
+  "chili__cercospora_leaf_spot": 0.8235294117647058,
+  "chili__healthy": 0.6,
+  "chili__mites_thrips": 0.5714285714285714,
+  "chili__nutrient_deficiency": 0.5714285714285714,
+  "chili__powdery_mildew": 1.0,
+  "corn__gray_leaf_spot": 0.9310344827586207,
+  "corn__healthy": 1.0,
+  "corn__leaf_blight": 0.9130434782608695,
+  "corn__rust": 1.0,
+  "eggplant__healthy": 0.7866666666666666,
+  "eggplant__insect_damage": 0.7894736842105263,
+  "eggplant__leaf_spot": 0.6875,
+  "eggplant__mosaic_virus": 0.7142857142857143,
+  "eggplant__white_mold": 0.16666666666666666,
+  "eggplant__wilt": 0.8571428571428571,
+  "grape__bacterial_spot": 1.0,
+  "grape__black_rot": 0.9905660377358491,
+  "grape__downy_mildew": 0.9782608695652174,
+  "grape__esca": 0.978021978021978,
+  "grape__healthy": 1.0,
+  "grape__leaf_spot": 1.0,
+  "grape__powdery_mildew": 0.9555555555555556,
+  "money_plant__bacterial_wilt": 1.0,
+  "money_plant__healthy": 1.0,
+  "money_plant__manganese_toxicity": 1.0,
+  "none__no_leaf": 0.9759036144578314,
+  "onion__healthy": 0.9523809523809523,
+  "onion__iris_yellow_spot": 0.8387096774193549,
+  "onion__leaf_blight": 0.6153846153846154,
+  "onion__purple_blotch": 0.8,
+  "orange__citrus_greening": 1.0,
+  "papaya__healthy": 1.0,
+  "papaya__leaf_curl": 1.0,
+  "papaya__mealybugs": 1.0,
+  "papaya__mosaic_virus": 1.0,
+  "papaya__ringspot_virus": 1.0,
+  "papaya__spider_mites": 0.9565217391304348,
+  "peach__bacterial_spot": 1.0,
+  "peach__healthy": 1.0,
+  "plum__bacterial_spot": 1.0,
+  "plum__healthy": 1.0,
+  "plum__shot_hole": 0.9848484848484849,
+  "plum__wilt": 1.0,
+  "potato__early_blight": 1.0,
+  "potato__healthy": 0.875,
+  "potato__late_blight": 0.9878048780487805,
+  "raspberry__healthy": 1.0,
+  "rose__black_spot": 0.9914529914529915,
+  "rose__dry_leaf": 1.0,
+  "rose__healthy": 1.0,
+  "rose__insect_damage": 1.0,
+  "soybean__healthy": 1.0,
+  "spinach__anthracnose": 0.9,
+  "spinach__bacterial_spot": 0.7205882352941176,
+  "spinach__downy_mildew": 0.8181818181818182,
+  "spinach__healthy": 0.8952380952380953,
+  "spinach__insect_damage": 0.75,
+  "squash__powdery_mildew": 1.0,
+  "strawberry__healthy": 1.0,
+  "strawberry__leaf_scorch": 1.0,
+  "tomato__bacterial_spot": 0.9702970297029703,
+  "tomato__early_blight": 0.9381443298969072,
+  "tomato__healthy": 1.0,
+  "tomato__late_blight": 0.9894736842105263,
+  "tomato__leaf_mold": 0.9746835443037974,
+  "tomato__mosaic_virus": 1.0,
+  "tomato__septoria_leaf_spot": 0.9883720930232558,
+  "tomato__spider_mites": 0.9375,
+  "tomato__target_spot": 0.9905660377358491,
+  "tomato__yellow_leaf_curl": 0.9795918367346939,
+  "turmeric__aphids": 1.0,
+  "turmeric__healthy": 1.0,
+  "turmeric__leaf_blotch": 0.92,
+  "turmeric__leaf_spot": 1.0
+ },
+ "plantdoc": {
+  "images": 1016,
+  "top1": 0.5767716535433071,
+  "top3": 0.8110236220472441,
+  "top1_plant_picked": 0.7490157480314961,
+  "top3_plant_picked": 0.9596456692913385
+ },
+ "history": {
+  "head": {
+   "accuracy": [
+    0.7018869519233704,
+    0.8517643809318542,
+    0.8735578060150146,
+    0.8822166919708252,
+    0.8912354111671448,
+    0.8943390846252441
+   ],
+   "loss": [
+    1.0523930788040161,
+    0.45499083399772644,
+    0.3712228536605835,
+    0.3333939015865326,
+    0.30631792545318604,
+    0.2934894263744354
+   ],
+   "val_accuracy": [
+    0.8765048980712891,
+    0.8887267708778381,
+    0.901678204536438,
+    0.9045968651771545,
+    0.9069682359695435,
+    0.910798966884613
+   ],
+   "val_loss": [
+    0.4306882321834564,
+    0.34149861335754395,
+    0.29956358671188354,
+    0.28213202953338623,
+    0.2677207589149475,
+    0.2629881203174591
+   ]
+  },
+  "finetune_stage1": {
+   "accuracy": [
+    0.8879067897796631,
+    0.9316060543060303,
+    0.9437059760093689,
+    0.9512853622436523,
+    0.9538267850875854
+   ],
+   "loss": [
+    0.3356252908706665,
+    0.1866433173418045,
+    0.15216395258903503,
+    0.13109415769577026,
+    0.1196974441409111
+   ],
+   "val_accuracy": [
+    0.9109814167022705,
+    0.9325063824653625,
+    0.9419919848442078,
+    0.9423568248748779,
+    0.953301727771759
+   ],
+   "val_loss": [
+    0.2526264488697052,
+    0.19129161536693573,
+    0.1624479740858078,
+    0.16290053725242615,
+    0.14417338371276855
+   ]
+  },
+  "finetune": {
+   "accuracy": [
+    0.9123514890670776,
+    0.9354692101478577,
+    0.948466420173645,
+    0.9564758539199829,
+    0.9604081511497498
+   ],
+   "loss": [
+    0.28059300780296326,
+    0.17304211854934692,
+    0.1361827552318573,
+    0.1143999770283699,
+    0.10147517919540405
+   ],
+   "val_accuracy": [
+    0.9274782538414001,
+    0.932869553565979,
+    0.938608705997467,
+    0.9363478422164917,
+    0.9366956353187561
+   ],
+   "val_loss": [
+    0.2620038390159607,
+    0.2281261831521988,
+    0.22399432957172394,
+    0.23268142342567444,
+    0.22591771185398102
+   ]
+  }
+ }
+}

@@ -16,7 +16,7 @@
     <string name="stat_care">Need care</string>
     <string name="top_issue">Most common problem: %1$s</string>
     <string name="by_plant">By plant</string>
-    <string name="plant_row">%1$d scans, %2$d need care</string>
+    <string name="plant_row">Scans: %1$d, need care: %2$d</string>
     <string name="recent">Recent scans</string>
     <string name="no_scans">No scans yet. Take a photo of a leaf and your results will show up here.</string>
     <string name="clear_history">Clear history</string>

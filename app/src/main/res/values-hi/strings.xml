@@ -16,7 +16,7 @@
     <string name="stat_care">देखभाल चाहिए</string>
     <string name="top_issue">सबसे आम समस्या: %1$s</string>
     <string name="by_plant">पौधे के हिसाब से</string>
-    <string name="plant_row">%1$d जाँचें, %2$d को देखभाल चाहिए</string>
+    <string name="plant_row">जाँचें: %1$d, देखभाल चाहिए: %2$d</string>
     <string name="recent">हाल की जाँचें</string>
     <string name="no_scans">अभी तक कोई जाँच नहीं हुई। किसी पत्ते की फ़ोटो लें, नतीजे यहाँ दिखेंगे।</string>
     <string name="clear_history">इतिहास मिटाएँ</string>

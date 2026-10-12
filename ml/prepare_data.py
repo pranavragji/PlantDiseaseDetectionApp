@@ -202,31 +202,45 @@ def square(img_bytes):
     return img.resize((SIZE, SIZE), Image.BILINEAR)
 
 
-def split_of(key):
-    # stable 80/10/10 split from the image hash, so reruns give the same split
-    b = int(hashlib.md5(key.encode()).hexdigest(), 16) % 10
-    return "test" if b == 0 else "val" if b == 1 else "train"
+def bucket(digest):
+    # stable split from the image hash, so reruns always put an image in the same place
+    return int(hashlib.md5(digest.encode()).hexdigest(), 16) % 10
 
 
-def export(api, repo, mapping, out, cap, use_split):
+def lab_split(digest):  # 80/10/10
+    b = bucket(digest)
+    return "img/test" if b == 0 else "img/val" if b == 1 else "img/train"
+
+
+def real_split(digest):
+    # PlantDoc garden photos: 40% kept aside as the real-world test, 10% val, 50% train.
+    # Without them the model learns photo style (plain vs busy background) instead of the leaf.
+    b = bucket(digest)
+    return "plantdoc" if b < 4 else "img/val" if b == 4 else "img/train"
+
+
+def export(api, repo, mapping, data, cap, split, train_copies=1):
     label_col, names = class_names(api, repo)
     counts = {}
     for f in parquet_files(api, repo):
-        path = hf_hub_download(repo, f, repo_type="dataset", cache_dir=str(out.parent / "hf"))
+        path = hf_hub_download(repo, f, repo_type="dataset", cache_dir=str(data / "hf"))
         table = pq.read_table(path, columns=["image", label_col])
         for img, lab in zip(table.column("image").to_pylist(), table.column(label_col).to_pylist()):
             cls = mapping.get(names[lab])
             if cls is None or counts.get(cls, 0) >= cap:
                 continue
             digest = hashlib.md5(img["bytes"]).hexdigest()
-            d = out / (split_of(digest) if use_split else "") / cls
+            where = split(digest)
+            d = data / where / cls
             d.mkdir(parents=True, exist_ok=True)
-            target = d / f"{repo.split('/')[1][:12]}_{digest[:12]}.jpg"
-            if target.exists():
-                counts[cls] = counts.get(cls, 0) + 1
-                continue
+            # small real-world sets are repeated in train so they are not drowned out (augmentation varies each copy)
+            copies = train_copies if where == "img/train" else 1
+            targets = [d / f"{repo.split('/')[1][:12]}_{digest[:12]}{'' if k == 0 else f'r{k}'}.jpg" for k in range(copies)]
             try:
-                square(img["bytes"]).save(target, quality=90)
+                if not all(t.exists() for t in targets):
+                    sq = square(img["bytes"])
+                    for t in targets:
+                        sq.save(t, quality=90)
             except Exception as e:  # a few source files are truncated; skip them
                 print("skip", repo, e)
                 continue
@@ -240,9 +254,9 @@ def main():
     api = HfApi()
     totals = {}
     for repo, mapping in SOURCES.items():
-        for cls, n in export(api, repo, mapping, data / "img", CAP, True).items():
+        for cls, n in export(api, repo, mapping, data, CAP, lab_split).items():
             totals[cls] = totals.get(cls, 0) + n
-    export(api, "Project-AgML/plant_doc_classification", PLANTDOC, data / "plantdoc", 10**9, False)
+    export(api, "Project-AgML/plant_doc_classification", PLANTDOC, data, 10**9, real_split, train_copies=3)
     (data / "counts.json").write_text(json.dumps(dict(sorted(totals.items())), indent=1))
     print(len(totals), "classes,", sum(totals.values()), "images")
 
