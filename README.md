@@ -40,7 +40,7 @@ It is built for home gardeners, balcony growers, kitchen gardens, school gardens
 
 | | |
 |---|---|
-| **Check a leaf** | Take a photo or pick one from the gallery. You can also share a photo into LeafCheck from WhatsApp or any app. |
+| **Check a leaf** | Take a photo or pick one from the gallery. You can also share a photo into LeafCheck from your gallery app. |
 | **Tell it the plant (optional)** | If you know it is a rose, pick "Rose" and LeafCheck only compares against rose problems. This makes it noticeably more accurate (see below). |
 | **Plain-language advice** | Every result explains what the problem is and gives 3 to 4 practical care steps. Healthy leaves get general care tips. |
 | **Honest about doubt** | If it is not sure, it says so, shows the other likely answers, and tells you how to take a better photo. |
@@ -96,7 +96,7 @@ All numbers below were measured on the exact model file that ships inside the AP
 **Reading these numbers honestly:**
 
 - The held-out score is high because most training photos are clean: one leaf on a plain background. Your garden is messier, so expect the real-world line to be closer to what you will see.
-- The first version of this model, trained only on those clean photos, got just 13.2% of real garden photos right: it had learned "plain background vs busy background" instead of the leaf. Mixing in real garden photos from PlantDoc (and testing on a separate set of them it never saw) is what brought that up to 57.7%.
+- The first version of this model, trained only on those clean photos, got just 13.2% of real garden photos right (measured on all 2,569 PlantDoc photos, before any were used for training): it had learned "plain background vs busy background" instead of the leaf. Mixing in real garden photos from PlantDoc (and testing on a separate set of them it never saw) is what brought that up to 57.7%.
 - Telling LeafCheck which plant it is makes the biggest difference, because it no longer has to guess the plant and the problem at the same time.
 - Some plants have only a few hundred photos to learn from (see the chart), so treat their results as a strong hint, not a verdict.
 - It only knows the conditions in the table above. If your plant has something else, it will pick the closest match. The "Other possibilities" list and the confidence bar are there for exactly that reason.
@@ -158,11 +158,11 @@ The APK lands in `app/build/outputs/apk/release/`.
 ```bash
 pip install tensorflow pillow pyarrow huggingface_hub matplotlib
 python ml/prepare_data.py ../plant-data
-python ml/train.py ../plant-data
+TF_ENABLE_ONEDNN_OPTS=0 python ml/train.py ../plant-data
 python ml/charts.py
 ```
 
-`prepare_data.py` downloads every dataset listed below from Hugging Face (about 3 GB), resizes the photos and splits them 80/10/10 (PlantDoc garden photos: 50% train, 10% validation, 40% real-world test). `train.py` trains on a CPU in a couple of hours, writes `model.tflite` and `labels.json` into the app, and saves all the scores to `ml/metrics.json`. To add a plant, add its dataset and label mapping to `SOURCES` in `prepare_data.py`, then add its names and advice to the `plants.xml` files.
+`prepare_data.py` downloads every dataset listed below from Hugging Face (about 3 GB), resizes the photos and splits them 80/10/10 (PlantDoc garden photos: 50% train, 10% validation, 40% real-world test). `train.py` trains on a CPU in a couple of hours, writes `model.tflite` and `labels.json` into the app, and saves all the scores to `ml/metrics.json`. Keep `TF_ENABLE_ONEDNN_OPTS=0`: with it on, fine-tuning crashed partway through on Windows. The script saves checkpoints in `../plant-data/ckpt`, so rerunning after a crash picks up where it stopped. To add a plant, add its dataset and label mapping to `SOURCES` in `prepare_data.py`, then add its names and advice to the `plants.xml` files.
 
 ## Data and credits
 
