@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:background="@drawable/photo_bg"
+                android:scaleType="centerCrop"
+                android:importantForAccessibility="no" />
+
+            <TextView
+                android:id="@+id/chip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|start"
+                android:layout_margin="14dp"
+                android:background="@drawable/chip_bg"
+                android:paddingStart="14dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="14dp"
+                android:paddingBottom="6dp"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/crop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/muted"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/condition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/analyzing"
+            android:textColor="@color/ink"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/bar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:max="100"
+                android:progressDrawable="@drawable/bar_bg" />
+
+            <TextView
+                android:id="@+id/confidence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"
+                android:textColor="@color/muted"
+                android:textSize="14sp"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/warning"
+                style="@style/Body"
+                android:background="@drawable/warn_bg"
+                android:padding="14dp"
+                android:text="@string/low_confidence"
+                android:textColor="@color/care"
+                android:layout_marginBottom="16dp"
+                android:visibility="gone" />
+
+            <LinearLayout style="@style/Card">
+
+                <TextView
+                    style="@style/Section"
+                    android:text="@string/about" />
+
+                <TextView
+                    android:id="@+id/about"
+                    style="@style/Body" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/care"
+                style="@style/Card">
+
+                <TextView
+                    style="@style/Section"
+                    android:text="@string/what_to_do" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/others"
+                style="@style/Card">
+
+                <TextView
+                    style="@style/Section"
+                    android:text="@string/other_matches" />
+            </LinearLayout>
+
+            <TextView
+                style="@style/Body"
+                android:text="@string/disclaimer"
+                android:textColor="@color/muted"
+                android:textSize="13sp"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/again"
+                style="@style/Primary"
+                android:drawableStart="@drawable/ic_camera"
+                android:text="@string/scan_again" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,218 @@
+<resources>
+    <!-- Plants. Keys match the crop part of each model label, e.g. "tomato" in tomato__early_blight. -->
+    <string name="crop_none">No plant</string>
+    <string name="crop_apple">Apple</string>
+    <string name="crop_banana">Banana</string>
+    <string name="crop_bean">Bean</string>
+    <string name="crop_bell_pepper">Bell pepper</string>
+    <string name="crop_blueberry">Blueberry</string>
+    <string name="crop_cherry">Cherry</string>
+    <string name="crop_chili">Chili pepper</string>
+    <string name="crop_corn">Corn (maize)</string>
+    <string name="crop_eggplant">Eggplant (brinjal)</string>
+    <string name="crop_grape">Grape</string>
+    <string name="crop_money_plant">Money plant (pothos)</string>
+    <string name="crop_onion">Onion</string>
+    <string name="crop_orange">Orange and citrus</string>
+    <string name="crop_papaya">Papaya</string>
+    <string name="crop_peach">Peach</string>
+    <string name="crop_plum">Plum</string>
+    <string name="crop_potato">Potato</string>
+    <string name="crop_raspberry">Raspberry</string>
+    <string name="crop_rose">Rose</string>
+    <string name="crop_soybean">Soybean</string>
+    <string name="crop_spinach">Spinach</string>
+    <string name="crop_squash">Squash and pumpkin</string>
+    <string name="crop_strawberry">Strawberry</string>
+    <string name="crop_tomato">Tomato</string>
+    <string name="crop_turmeric">Turmeric</string>
+
+    <!-- Conditions: cond_ is the name, about_ explains it, care_ is one tip per line. -->
+    <string name="cond_healthy">Healthy</string>
+    <string name="about_healthy">No signs of disease or pests were found on this leaf. Nice work.</string>
+    <string name="care_healthy">Water at the base of the plant, not on the leaves.\nCheck a few leaves, top and underside, once a week.\nRemove dead or yellow leaves so air can move around the plant.\nFeed with compost or a balanced fertiliser during the growing season.</string>
+
+    <string name="cond_no_leaf">No leaf found</string>
+    <string name="about_no_leaf">LeafCheck could not find a plant leaf in this photo.</string>
+    <string name="care_no_leaf">Fill most of the photo with one leaf.\nUse daylight and avoid strong shadows.\nHold the phone steady so the leaf is sharp.</string>
+
+    <string name="cond_scab">Scab</string>
+    <string name="about_scab">A fungal disease that leaves olive-brown, velvety spots on leaves and dark, corky patches on fruit. It spreads in cool, wet spring weather.</string>
+    <string name="care_scab">Rake up and bin fallen leaves in autumn, the fungus survives the winter in them.\nPrune the tree open so leaves dry quickly after rain.\nIn wet springs, a sulfur or copper spray at bud break protects new leaves.\nWhen buying new trees, pick scab-resistant varieties.</string>
+
+    <string name="cond_black_rot">Black rot</string>
+    <string name="about_black_rot">A fungal disease that causes brown leaf spots with purple edges and rots fruit until it shrivels into hard, black mummies.</string>
+    <string name="care_black_rot">Pick off and destroy mummified fruit and spotted leaves.\nPrune out dead or damaged wood.\nKeep the plant open and airy so it dries fast after rain.\nIn bad years, a protective fungicide from early in the season can help.</string>
+
+    <string name="cond_cedar_rust">Cedar apple rust</string>
+    <string name="about_cedar_rust">A fungus that needs both apple trees and nearby juniper or cedar trees to complete its life. It makes bright yellow-orange spots on apple leaves.</string>
+    <string name="care_cedar_rust">In spring, look for orange, jelly-like growths on nearby junipers and cut them off.\nRemove badly spotted leaves.\nIf junipers grow close by, plant rust-resistant apple varieties.\nA fungicide from the pink bud stage protects leaves in high-risk areas.</string>
+
+    <string name="cond_powdery_mildew">Powdery mildew</string>
+    <string name="about_powdery_mildew">A fungus that covers leaves with a white, flour-like powder. It loves warm days, cool nights and crowded plants, and slowly weakens the plant.</string>
+    <string name="care_powdery_mildew">Remove the worst leaves and throw them away, not in the compost.\nGive plants more space and sun so air moves freely.\nWater the soil in the morning, not the leaves.\nSpray with diluted milk (1 part milk to 9 parts water), potassium bicarbonate, sulfur or neem oil every 7 to 10 days.</string>
+
+    <string name="cond_gray_leaf_spot">Gray leaf spot</string>
+    <string name="about_gray_leaf_spot">A fungal disease that makes long, narrow, gray-tan patches between the leaf veins. It is worst in humid weather and where corn grows in the same spot every year.</string>
+    <string name="care_gray_leaf_spot">Do not plant corn in the same bed next year.\nClear away old corn stalks after harvest.\nChoose resistant varieties.\nSpace plants so leaves dry quickly.</string>
+
+    <string name="cond_rust">Rust</string>
+    <string name="about_rust">A fungus that makes small, raised, rusty orange-brown bumps. If you rub one, the powder comes off on your finger.</string>
+    <string name="care_rust">Remove and bin infected leaves early.\nAvoid wetting the leaves when you water.\nDo not work among the plants when they are wet, it spreads the spores.\nRotate crops and plant resistant varieties next season. Sulfur sprays can slow it down.</string>
+
+    <string name="cond_leaf_blight">Leaf blight</string>
+    <string name="about_leaf_blight">A fungal disease that causes large, long, gray-green or tan patches that dry out the leaves.</string>
+    <string name="care_leaf_blight">Remove and destroy infected leaves and old plant debris.\nRotate crops for at least one year.\nWater the soil, not the leaves, early in the day.\nGive plants room to dry quickly and choose resistant varieties.</string>
+
+    <string name="cond_esca">Esca (black measles)</string>
+    <string name="about_esca">A wood disease of grapevines. Leaves get yellow or red stripes between the veins, like tiger stripes, and berries can show small dark spots.</string>
+    <string name="care_esca">Mark affected vines and prune them last, in dry weather.\nCut out dead wood well below the damage and remove it.\nSeal large pruning cuts.\nKeep vines well fed and watered. Badly affected vines may need replacing.</string>
+
+    <string name="cond_leaf_spot">Leaf spot</string>
+    <string name="about_leaf_spot">Fungal or bacterial spots that start small and grow into brown or dark patches, sometimes with a yellow ring. Leaves can turn yellow and drop.</string>
+    <string name="care_leaf_spot">Pick off spotted leaves and throw them away.\nWater at the base, early in the day.\nSpace and prune plants so air moves through.\nA copper spray can slow the spread. Clean up plant debris at the end of the season.</string>
+
+    <string name="cond_citrus_greening">Citrus greening</string>
+    <string name="about_citrus_greening">A serious bacterial disease (huanglongbing) spread by a tiny insect, the Asian citrus psyllid. Leaves get blotchy, uneven yellow patches and fruit stays small, lopsided and bitter. There is no cure.</string>
+    <string name="care_citrus_greening">Contact your local agriculture office, in many places this disease must be reported.\nControl psyllids on new shoots with insecticidal soap or horticultural oil.\nInfected trees usually have to be removed so they do not infect others.\nBuy only certified disease-free citrus plants.</string>
+
+    <string name="cond_bacterial_spot">Bacterial spot</string>
+    <string name="about_bacterial_spot">A bacterial disease that makes small, dark, water-soaked spots on leaves and sometimes fruit. It spreads fast in warm, wet weather and with splashing water.</string>
+    <string name="care_bacterial_spot">Remove spotted leaves and do not compost them.\nWater the soil, not the leaves, and avoid sprinklers.\nDo not handle plants when they are wet.\nCopper spray can slow it down. Next season, use clean seed and rotate crops.</string>
+
+    <string name="cond_early_blight">Early blight</string>
+    <string name="about_early_blight">A fungus that makes brown spots with rings, like a target, usually on the oldest, lowest leaves first. The leaves then turn yellow and drop.</string>
+    <string name="care_early_blight">Remove the lower spotted leaves.\nMulch the soil so spores do not splash up onto the leaves.\nWater at the base and keep the leaves dry.\nRotate crops for 2 to 3 years. Copper sprays can protect new growth.</string>
+
+    <string name="cond_late_blight">Late blight</string>
+    <string name="about_late_blight">A fast-moving disease, the one behind the Irish potato famine. Large, greasy, dark patches appear on leaves, often with white fuzz underneath in damp weather. It can kill a plant within days.</string>
+    <string name="care_late_blight">Act quickly: pull out infected plants, bag them and put them in the bin. Do not compost.\nCheck nearby tomato and potato plants every day.\nKeep leaves dry and give plants space.\nCopper sprays can protect healthy plants. Do not replant potatoes from infected plants.</string>
+
+    <string name="cond_leaf_scorch">Leaf scorch</string>
+    <string name="about_leaf_scorch">A fungus that makes many small purple spots that join together until the leaf looks burnt and dries up.</string>
+    <string name="care_leaf_scorch">Remove old, infected leaves after harvest.\nKeep the bed weeded and the plants not too crowded.\nWater the soil in the morning.\nReplant with healthy, resistant plants every few years.</string>
+
+    <string name="cond_leaf_mold">Leaf mold</string>
+    <string name="about_leaf_mold">A fungus of humid places such as greenhouses. Pale yellow spots appear on top of the leaf, with olive-green or brown fuzz underneath.</string>
+    <string name="care_leaf_mold">Lower the humidity: open vents or doors and space plants out.\nRemove the affected leaves.\nWater the soil, not the leaves.\nGrow resistant varieties if it keeps coming back.</string>
+
+    <string name="cond_septoria_leaf_spot">Septoria leaf spot</string>
+    <string name="about_septoria_leaf_spot">A fungus that makes many small, round spots with dark edges and pale gray centers, starting on the lower leaves.</string>
+    <string name="care_septoria_leaf_spot">Remove spotted lower leaves as soon as you see them.\nMulch to stop soil splashing onto the leaves.\nWater at the base and stake plants off the ground.\nClean up plant debris at the end of the season and rotate crops.</string>
+
+    <string name="cond_spider_mites">Spider mites</string>
+    <string name="about_spider_mites">Tiny sap-sucking mites that live under the leaves. Leaves get fine yellow speckles and you may see thin webbing. They love hot, dry weather.</string>
+    <string name="care_spider_mites">Spray the undersides of the leaves with a strong jet of water every few days.\nRaise the humidity around the plant.\nUse insecticidal soap or neem oil, covering the undersides of the leaves.\nRemove badly infested leaves.</string>
+
+    <string name="cond_target_spot">Target spot</string>
+    <string name="about_target_spot">A fungus that makes brown spots with light rings, a lot like early blight. It can also mark the fruit.</string>
+    <string name="care_target_spot">Remove infected leaves and plant debris.\nPrune the lower leaves for better airflow.\nWater at the base, early in the day.\nRotate crops. A protective fungicide can help in wet seasons.</string>
+
+    <string name="cond_yellow_leaf_curl">Yellow leaf curl virus</string>
+    <string name="about_yellow_leaf_curl">A virus spread by whiteflies. Leaves curl upward, stay small and turn yellow at the edges, and the plant stops making fruit. There is no cure.</string>
+    <string name="care_yellow_leaf_curl">Pull out and bag infected plants so whiteflies cannot spread the virus.\nControl whiteflies with yellow sticky traps, insecticidal soap or neem oil.\nCover young plants with fine insect netting.\nPlant resistant varieties next time.</string>
+
+    <string name="cond_mosaic_virus">Mosaic virus</string>
+    <string name="about_mosaic_virus">A virus that makes a patchy light and dark green or yellow pattern on the leaves, which may also curl or pucker. It spreads by touch, tools and sap-sucking insects. There is no cure.</string>
+    <string name="care_mosaic_virus">Remove infected plants and put them in the bin. Do not compost.\nWash your hands and tools after touching plants.\nControl aphids and other sap-sucking insects.\nUse resistant varieties and virus-free seed.</string>
+
+    <string name="cond_cercospora_leaf_spot">Cercospora leaf spot</string>
+    <string name="about_cercospora_leaf_spot">A fungus that makes round spots with light gray centers and dark edges, like a frog eye. Badly spotted leaves fall early.</string>
+    <string name="care_cercospora_leaf_spot">Remove spotted and fallen leaves.\nWater the soil and avoid wetting the leaves.\nDo not crowd the plants.\nRotate crops. A copper spray can slow the spread.</string>
+
+    <string name="cond_mites_thrips">Mites and thrips</string>
+    <string name="about_mites_thrips">Tiny pests feeding on the leaves. Leaves curl, crinkle, get silvery or bronze patches and stay small.</string>
+    <string name="care_mites_thrips">Check under the leaves and on new shoots, a magnifier helps.\nSpray with insecticidal soap or neem oil every 5 to 7 days.\nUse blue or yellow sticky traps to catch thrips.\nRemove badly damaged shoots and keep weeds down.</string>
+
+    <string name="cond_nutrient_deficiency">Nutrient deficiency</string>
+    <string name="about_nutrient_deficiency">The plant is short of food. Yellowing between the veins, pale new leaves or purple tints usually mean it is missing nitrogen, magnesium, iron or another nutrient.</string>
+    <string name="care_nutrient_deficiency">Feed with a balanced fertiliser or well-rotted compost.\nFor yellowing between the veins of old leaves, try Epsom salt (magnesium), 1 tablespoon in 4 litres of water.\nMake sure the soil is not waterlogged or too alkaline, both stop roots taking up food.\nA simple soil test kit tells you exactly what is missing.</string>
+
+    <string name="cond_iris_yellow_spot">Iris yellow spot virus</string>
+    <string name="about_iris_yellow_spot">A virus spread by onion thrips. It makes straw-colored, diamond-shaped patches on the leaves and can make the bulbs smaller.</string>
+    <string name="care_iris_yellow_spot">Control thrips with insecticidal soap, neem oil and sticky traps.\nRemove and destroy badly affected plants.\nKeep weeds down, they shelter thrips.\nRotate crops and do not plant onions next to last season\'s onion bed.</string>
+
+    <string name="cond_purple_blotch">Purple blotch</string>
+    <string name="about_purple_blotch">A fungus that makes small white spots that grow into purple-brown blotches with yellow edges, mostly in warm, humid weather.</string>
+    <string name="care_purple_blotch">Remove infected leaves and old onion debris.\nSpace plants and water in the morning.\nDo not overdo nitrogen fertiliser.\nRotate crops. A copper spray can protect the leaves.</string>
+
+    <string name="cond_insect_damage">Insect damage</string>
+    <string name="about_insect_damage">Insects are chewing or sucking the leaves. You may see holes, ragged edges, sticky residue or the insects themselves.</string>
+    <string name="care_insect_damage">Look under the leaves and pick off any caterpillars, beetles or eggs.\nSpray with a strong jet of water, insecticidal soap or neem oil.\nPlant flowers nearby to attract helpful insects like ladybirds.\nUse fine netting to keep pests off young plants.</string>
+
+    <string name="cond_white_mold">White mold</string>
+    <string name="about_white_mold">A fungus that makes soft, water-soaked patches covered in white, cotton-like growth, often with hard black specks inside.</string>
+    <string name="care_white_mold">Carefully remove infected plants and the soil right around them.\nGive plants space and do not overwater.\nWater in the morning so plants dry before night.\nFor a few years, grow crops like corn or onion in that spot instead.</string>
+
+    <string name="cond_wilt">Wilt</string>
+    <string name="about_wilt">The plant droops even when the soil is moist. Often a fungus or bacteria is blocking the stems that carry water, or the roots are damaged.</string>
+    <string name="care_wilt">Check the soil first: water if it is dry, improve drainage if it is soggy.\nCut a stem open: brown streaks inside point to a wilt disease.\nRemove badly wilted plants and do not plant the same kind there for a few years.\nUse resistant varieties or grafted plants next time.</string>
+
+    <string name="cond_bacterial_wilt">Bacterial wilt</string>
+    <string name="about_bacterial_wilt">A bacterial disease that causes soft, yellow, water-soaked patches and drooping. On money plant the leaves turn yellow and the stems can rot.</string>
+    <string name="care_bacterial_wilt">Cut off infected leaves and stems with clean scissors.\nLet the soil dry out between waterings and never leave the pot standing in water.\nIf the roots smell bad or look brown and mushy, repot in fresh, well-draining mix.\nIf the plant is badly hit, start a new one from healthy cuttings.</string>
+
+    <string name="cond_manganese_toxicity">Too much manganese</string>
+    <string name="about_manganese_toxicity">There is too much manganese in the soil, often because it is acidic, waterlogged or over-fertilised. Leaves get brown speckles and yellow edges.</string>
+    <string name="care_manganese_toxicity">Stop fertilising for a few weeks.\nFlush the pot with plenty of clean water and let it drain fully.\nIf it does not improve, repot into fresh potting mix.\nFrom now on, use a balanced fertiliser at half strength.</string>
+
+    <string name="cond_cordana_leaf_spot">Cordana leaf spot</string>
+    <string name="about_cordana_leaf_spot">A fungus that makes oval, pale brown spots with a yellow ring, usually along the edges of the leaf.</string>
+    <string name="care_cordana_leaf_spot">Cut off badly spotted leaves and take them away.\nImprove drainage and do not crowd the plants.\nFeed with a potassium-rich fertiliser to make the plant stronger.\nA copper spray can protect new leaves in wet weather.</string>
+
+    <string name="cond_pestalotiopsis">Pestalotiopsis leaf spot</string>
+    <string name="about_pestalotiopsis">A fungus that makes gray to brown spots with dark borders, often on leaves that are weak or damaged.</string>
+    <string name="care_pestalotiopsis">Remove affected leaves.\nAvoid damaging the leaves and keep the plant well watered and fed.\nImprove the airflow around the plant.\nA copper spray can protect new leaves.</string>
+
+    <string name="cond_sigatoka">Sigatoka</string>
+    <string name="about_sigatoka">A fungal disease that makes yellow streaks which turn into brown or black dead patches, killing large parts of the leaf.</string>
+    <string name="care_sigatoka">Cut off and remove heavily affected leaves.\nKeep space between plants and remove extra suckers.\nGood drainage and balanced feeding keep plants stronger.\nIn bad years, a regular fungicide or mineral oil spray may be needed.</string>
+
+    <string name="cond_angular_leaf_spot">Angular leaf spot</string>
+    <string name="about_angular_leaf_spot">A fungus that makes brown spots with straight, angular edges, boxed in by the leaf veins.</string>
+    <string name="care_angular_leaf_spot">Remove infected leaves and old bean plants.\nUse clean seed from a trusted source.\nDo not touch the plants when they are wet.\nGrow something other than beans in that bed for 2 years.</string>
+
+    <string name="cond_leaf_curl">Leaf curl</string>
+    <string name="about_leaf_curl">Usually a virus spread by whiteflies. Leaves curl downward, crinkle and turn thick and leathery, and the plant stops growing.</string>
+    <string name="care_leaf_curl">Remove badly affected plants.\nControl whiteflies with yellow sticky traps, neem oil or insecticidal soap.\nKeep weeds down around the plant.\nStart new plants from healthy seedlings.</string>
+
+    <string name="cond_mealybugs">Mealybugs</string>
+    <string name="about_mealybugs">Small, white, cotton-like insects that suck sap. They leave sticky honeydew and black sooty mold, and the leaves can curl and turn yellow.</string>
+    <string name="care_mealybugs">Wipe them off with a cotton bud dipped in rubbing alcohol.\nSpray with insecticidal soap or neem oil every week until they are gone.\nControl ants, they protect mealybugs.\nPrune off heavily infested parts.</string>
+
+    <string name="cond_ringspot_virus">Ringspot virus</string>
+    <string name="about_ringspot_virus">A virus spread by aphids. Leaves get yellow mottling and can become narrow and twisted, and the fruit shows dark rings. There is no cure.</string>
+    <string name="care_ringspot_virus">Remove and destroy infected plants quickly.\nControl aphids with insecticidal soap or neem oil.\nDo not grow cucumbers or melons nearby, they can carry the virus.\nGrow tolerant varieties and start with healthy seedlings.</string>
+
+    <string name="cond_anthracnose">Anthracnose</string>
+    <string name="about_anthracnose">A fungus that makes sunken, water-soaked spots that turn tan or brown with darker edges.</string>
+    <string name="care_anthracnose">Remove and bin infected leaves.\nWater the soil, not the leaves.\nRotate crops and clear plant debris after harvest.\nUse disease-free seed.</string>
+
+    <string name="cond_downy_mildew">Downy mildew</string>
+    <string name="about_downy_mildew">A disease that makes yellow patches on top of the leaf with gray or purple fuzz underneath, especially in cool, damp weather.</string>
+    <string name="care_downy_mildew">Remove infected leaves.\nSpace plants out to improve airflow.\nWater at the base, in the morning.\nA copper spray can protect healthy leaves. Choose resistant varieties.</string>
+
+    <string name="cond_shot_hole">Shot hole</string>
+    <string name="about_shot_hole">A fungal or bacterial disease that makes small reddish spots which fall out, so the leaf looks like it is full of tiny holes.</string>
+    <string name="care_shot_hole">Rake up and destroy fallen leaves.\nPrune out infected twigs in dry weather.\nAvoid watering over the leaves.\nA copper spray in autumn, as the leaves fall, can reduce next year\'s infection.</string>
+
+    <string name="cond_alternaria_leaf_spot">Alternaria leaf spot</string>
+    <string name="about_alternaria_leaf_spot">A fungus that makes small, round, brown spots, sometimes with darker rings. It can make leaves drop early in summer.</string>
+    <string name="care_alternaria_leaf_spot">Remove fallen leaves.\nPrune for good airflow.\nKeep the tree well watered and fed to reduce stress.\nA protective fungicide may help in warm, wet seasons.</string>
+
+    <string name="cond_aphids">Aphids</string>
+    <string name="about_aphids">Small, soft insects that cluster under the leaves and on new shoots, sucking sap. The leaves curl and get sticky.</string>
+    <string name="care_aphids">Blast them off with a jet of water.\nSpray with insecticidal soap or neem oil.\nWelcome ladybirds and lacewings, they eat aphids.\nDo not overdo nitrogen fertiliser, it makes the soft growth aphids love.</string>
+
+    <string name="cond_leaf_blotch">Leaf blotch</string>
+    <string name="about_leaf_blotch">A fungus that makes small yellowish spots which join into large brown blotches on both sides of the leaf.</string>
+    <string name="care_leaf_blotch">Remove and destroy infected leaves.\nPlant only healthy rhizomes.\nAvoid waterlogged soil and space the plants out.\nRotate crops. A copper spray can slow it down.</string>
+
+    <string name="cond_black_spot">Black spot</string>
+    <string name="about_black_spot">The most common rose disease. A fungus makes round black spots with feathery edges, then the leaves turn yellow and fall.</string>
+    <string name="care_black_spot">Pick off spotted leaves and clear away fallen ones.\nWater at the base in the morning, never on the leaves.\nPrune for an open center with good airflow.\nSpray neem oil, sulfur or a rose fungicide, and grow resistant varieties.</string>
+
+    <string name="cond_dry_leaf">Dry leaf</string>
+    <string name="about_dry_leaf">The leaf is drying out. Common causes are too little water, heat or wind, too much fertiliser, or root damage.</string>
+    <string name="care_dry_leaf">Water deeply once or twice a week instead of a little every day.\nMulch around the base to keep the soil moist and cool.\nCheck the roots and drainage.\nRemove dead leaves and stems.</string>
+</resources>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="crop_none">Ninguna planta</string>
+    <string name="crop_apple">Manzano</string>
+    <string name="crop_banana">Plátano (banano)</string>
+    <string name="crop_bean">Frijol (judía)</string>
+    <string name="crop_bell_pepper">Pimiento (morrón)</string>
+    <string name="crop_blueberry">Arándano</string>
+    <string name="crop_cherry">Cerezo</string>
+    <string name="crop_chili">Chile (ají)</string>
+    <string name="crop_corn">Maíz</string>
+    <string name="crop_eggplant">Berenjena</string>
+    <string name="crop_grape">Vid (uva)</string>
+    <string name="crop_money_plant">Poto (planta del dinero)</string>
+    <string name="crop_onion">Cebolla</string>
+    <string name="crop_orange">Naranjo y cítricos</string>
+    <string name="crop_papaya">Papaya</string>
+    <string name="crop_peach">Durazno (melocotón)</string>
+    <string name="crop_plum">Ciruelo</string>
+    <string name="crop_potato">Papa (patata)</string>
+    <string name="crop_raspberry">Frambuesa</string>
+    <string name="crop_rose">Rosal</string>
+    <string name="crop_soybean">Soya (soja)</string>
+    <string name="crop_spinach">Espinaca</string>
+    <string name="crop_squash">Calabaza y calabacín</string>
+    <string name="crop_strawberry">Fresa (frutilla)</string>
+    <string name="crop_tomato">Tomate</string>
+    <string name="crop_turmeric">Cúrcuma</string>
+
+    <string name="cond_healthy">Sana</string>
+    <string name="about_healthy">No se encontraron señales de enfermedades ni plagas en esta hoja. ¡Buen trabajo!</string>
+    <string name="care_healthy">Riega al pie de la planta, no sobre las hojas.\nRevisa algunas hojas, por arriba y por debajo, una vez a la semana.\nQuita las hojas secas o amarillas para que el aire circule alrededor de la planta.\nAbona con compost o un fertilizante equilibrado durante la temporada de crecimiento.</string>
+
+    <string name="cond_no_leaf">No se encontró ninguna hoja</string>
+    <string name="about_no_leaf">LeafCheck no pudo encontrar una hoja de planta en esta foto.</string>
+    <string name="care_no_leaf">Haz que una sola hoja ocupe casi toda la foto.\nUsa luz de día y evita las sombras fuertes.\nSujeta el teléfono con firmeza para que la hoja salga nítida.</string>
+
+    <string name="cond_scab">Sarna (moteado)</string>
+    <string name="about_scab">Una enfermedad causada por un hongo que deja manchas aterciopeladas de color marrón oliva en las hojas y zonas oscuras y ásperas, como de corcho, en la fruta. Se propaga con el tiempo fresco y húmedo de la primavera.</string>
+    <string name="care_scab">En otoño, recoge las hojas caídas y tíralas a la basura, porque el hongo pasa el invierno en ellas.\nPoda el árbol para que quede abierto y las hojas se sequen rápido después de la lluvia.\nEn primaveras lluviosas, rociar azufre o cobre cuando se abren los brotes protege las hojas nuevas.\nSi compras árboles nuevos, elige variedades resistentes a la sarna.</string>
+
+    <string name="cond_black_rot">Podredumbre negra</string>
+    <string name="about_black_rot">Una enfermedad causada por un hongo que produce manchas marrones con bordes morados en las hojas y pudre la fruta hasta que se arruga y queda como una momia negra y dura.</string>
+    <string name="care_black_rot">Quita y destruye la fruta momificada y las hojas con manchas.\nPoda la madera seca o dañada.\nMantén la planta abierta y aireada para que se seque rápido después de la lluvia.\nEn los años malos, un fungicida preventivo desde el inicio de la temporada puede ayudar.</string>
+
+    <string name="cond_cedar_rust">Roya del cedro y el manzano</string>
+    <string name="about_cedar_rust">Un hongo que necesita tanto manzanos como enebros o cedros cercanos para completar su ciclo. Produce manchas de color amarillo anaranjado intenso en las hojas del manzano.</string>
+    <string name="care_cedar_rust">En primavera, busca bultos anaranjados y gelatinosos en los enebros cercanos y córtalos.\nQuita las hojas muy manchadas.\nSi hay enebros cerca, planta variedades de manzano resistentes a la roya.\nEn zonas de alto riesgo, un fungicida desde que asoman los botones rosados protege las hojas.</string>
+
+    <string name="cond_powdery_mildew">Oídio</string>
+    <string name="about_powdery_mildew">Un hongo que cubre las hojas con un polvo blanco parecido a la harina. Le encantan los días cálidos, las noches frescas y las plantas amontonadas, y debilita la planta poco a poco.</string>
+    <string name="care_powdery_mildew">Quita las hojas más afectadas y tíralas a la basura, no al compost.\nDales a las plantas más espacio y sol para que el aire circule bien.\nRiega la tierra por la mañana, no las hojas.\nRocía cada 7 a 10 días con leche diluida (1 parte de leche por 9 de agua), bicarbonato de potasio, azufre o aceite de neem.</string>
+
+    <string name="cond_gray_leaf_spot">Mancha gris de la hoja</string>
+    <string name="about_gray_leaf_spot">Una enfermedad causada por un hongo que produce manchas largas y estrechas de color gris o café claro entre las venas de la hoja. Es peor con tiempo húmedo y donde se siembra maíz en el mismo lugar cada año.</string>
+    <string name="care_gray_leaf_spot">No siembres maíz en el mismo bancal el año que viene.\nRetira los tallos viejos de maíz después de la cosecha.\nElige variedades resistentes.\nDeja espacio entre las plantas para que las hojas se sequen rápido.</string>
+
+    <string name="cond_rust">Roya</string>
+    <string name="about_rust">Un hongo que produce pequeños bultos en relieve de color naranja oxidado o marrón. Si frotas uno, el polvo se te queda en el dedo.</string>
+    <string name="care_rust">Quita pronto las hojas afectadas y tíralas a la basura.\nEvita mojar las hojas cuando riegues.\nNo trabajes entre las plantas cuando estén mojadas, porque así se esparcen las esporas.\nLa próxima temporada, rota los cultivos y planta variedades resistentes. Rociar azufre puede frenarla.</string>
+
+    <string name="cond_leaf_blight">Tizón de la hoja</string>
+    <string name="about_leaf_blight">Una enfermedad causada por un hongo que produce manchas grandes y alargadas de color gris verdoso o café claro que secan las hojas.</string>
+    <string name="care_leaf_blight">Quita y destruye las hojas afectadas y los restos viejos de plantas.\nRota los cultivos durante al menos un año.\nRiega la tierra, no las hojas, temprano por la mañana.\nDeja espacio para que las plantas se sequen rápido y elige variedades resistentes.</string>
+
+    <string name="cond_esca">Yesca (sarampión negro)</string>
+    <string name="about_esca">Una enfermedad de la madera de la vid. Las hojas muestran rayas amarillas o rojas entre las venas, como las de un tigre, y las uvas pueden tener pequeños puntos oscuros.</string>
+    <string name="care_esca">Marca las vides afectadas y pódalas al final, con tiempo seco.\nCorta la madera muerta bastante por debajo del daño y retírala.\nSella los cortes de poda grandes.\nMantén las vides bien abonadas y regadas. Las vides muy afectadas quizá haya que reemplazarlas.</string>
+
+    <string name="cond_leaf_spot">Mancha foliar</string>
+    <string name="about_leaf_spot">Manchas causadas por hongos o bacterias que empiezan pequeñas y crecen hasta formar zonas marrones u oscuras, a veces con un anillo amarillo. Las hojas pueden ponerse amarillas y caerse.</string>
+    <string name="care_leaf_spot">Quita las hojas con manchas y tíralas a la basura.\nRiega al pie de la planta, temprano por la mañana.\nDeja espacio entre las plantas y pódalas para que circule el aire.\nRociar cobre puede frenar el contagio. Limpia los restos de plantas al final de la temporada.</string>
+
+    <string name="cond_citrus_greening">Enverdecimiento de los cítricos (HLB)</string>
+    <string name="about_citrus_greening">Una enfermedad bacteriana grave (huanglongbing) que transmite un insecto diminuto, el psílido asiático de los cítricos. Las hojas tienen manchas amarillas irregulares y la fruta se queda pequeña, deforme y amarga. No tiene cura.</string>
+    <string name="care_citrus_greening">Contacta con la oficina agrícola de tu zona, porque en muchos lugares es obligatorio avisar de esta enfermedad.\nControla los psílidos en los brotes nuevos con jabón insecticida o aceite hortícola.\nLos árboles infectados normalmente hay que quitarlos para que no contagien a otros.\nCompra solo plantas de cítricos certificadas libres de enfermedades.</string>
+
+    <string name="cond_bacterial_spot">Mancha bacteriana</string>
+    <string name="about_bacterial_spot">Una enfermedad causada por bacterias que produce manchas pequeñas, oscuras y de aspecto empapado en las hojas y a veces en la fruta. Se propaga rápido con tiempo cálido y húmedo y con las salpicaduras de agua.</string>
+    <string name="care_bacterial_spot">Quita las hojas con manchas y no las pongas en el compost.\nRiega la tierra, no las hojas, y evita los aspersores.\nNo toques las plantas cuando estén mojadas.\nRociar cobre puede frenarla. La próxima temporada, usa semillas sanas y rota los cultivos.</string>
+
+    <string name="cond_early_blight">Tizón temprano</string>
+    <string name="about_early_blight">Un hongo que produce manchas marrones con anillos, como una diana, que suelen aparecer primero en las hojas más viejas y bajas. Después las hojas se ponen amarillas y se caen.</string>
+    <string name="care_early_blight">Quita las hojas bajas que tengan manchas.\nCubre la tierra con acolchado para que las esporas no salpiquen a las hojas.\nRiega al pie de la planta y mantén las hojas secas.\nRota los cultivos durante 2 o 3 años. Rociar cobre puede proteger los brotes nuevos.</string>
+
+    <string name="cond_late_blight">Tizón tardío</string>
+    <string name="about_late_blight">Una enfermedad que avanza muy rápido, la misma que causó la gran hambruna de la papa en Irlanda. Aparecen manchas grandes, oscuras y de aspecto grasiento en las hojas, a menudo con una pelusa blanca por debajo cuando hay humedad. Puede matar una planta en pocos días.</string>
+    <string name="care_late_blight">Actúa rápido: arranca las plantas afectadas, mételas en una bolsa y tíralas a la basura. No las pongas en el compost.\nRevisa cada día las plantas de tomate y papa cercanas.\nMantén las hojas secas y deja espacio entre las plantas.\nRociar cobre puede proteger las plantas sanas. No vuelvas a plantar papas de plantas afectadas.</string>
+
+    <string name="cond_leaf_scorch">Quemadura de la hoja</string>
+    <string name="about_leaf_scorch">Un hongo que produce muchas manchitas moradas que se van uniendo hasta que la hoja parece quemada y se seca.</string>
+    <string name="care_leaf_scorch">Quita las hojas viejas y afectadas después de la cosecha.\nMantén el bancal sin malezas y las plantas no demasiado juntas.\nRiega la tierra por la mañana.\nCada pocos años, vuelve a plantar con plantas sanas y resistentes.</string>
+
+    <string name="cond_leaf_mold">Moho de la hoja</string>
+    <string name="about_leaf_mold">Un hongo de lugares húmedos, como los invernaderos. Aparecen manchas amarillo pálido por encima de la hoja y una pelusa verde oliva o marrón por debajo.</string>
+    <string name="care_leaf_mold">Baja la humedad: abre ventanas o puertas y separa las plantas.\nQuita las hojas afectadas.\nRiega la tierra, no las hojas.\nSi vuelve una y otra vez, cultiva variedades resistentes.</string>
+
+    <string name="cond_septoria_leaf_spot">Mancha por septoria</string>
+    <string name="about_septoria_leaf_spot">Un hongo que produce muchas manchas pequeñas y redondas con bordes oscuros y centro gris claro, que empiezan en las hojas de abajo.</string>
+    <string name="care_septoria_leaf_spot">Quita las hojas bajas con manchas en cuanto las veas.\nCubre la tierra con acolchado para que no salpique a las hojas.\nRiega al pie de la planta y ponle tutores para que no toque el suelo.\nLimpia los restos de plantas al final de la temporada y rota los cultivos.</string>
+
+    <string name="cond_spider_mites">Araña roja</string>
+    <string name="about_spider_mites">Ácaros diminutos que viven bajo las hojas y les chupan la savia. Las hojas se llenan de puntitos amarillos y puede que veas finas telarañas. Les encanta el tiempo caluroso y seco.</string>
+    <string name="care_spider_mites">Cada pocos días, rocía la parte de abajo de las hojas con un chorro fuerte de agua.\nAumenta la humedad alrededor de la planta.\nUsa jabón insecticida o aceite de neem, cubriendo bien la parte de abajo de las hojas.\nQuita las hojas muy infestadas.</string>
+
+    <string name="cond_target_spot">Mancha diana</string>
+    <string name="about_target_spot">Un hongo que produce manchas marrones con anillos claros, muy parecidas a las del tizón temprano. También puede manchar la fruta.</string>
+    <string name="care_target_spot">Quita las hojas afectadas y los restos de plantas.\nPoda las hojas de abajo para que circule mejor el aire.\nRiega al pie de la planta, temprano por la mañana.\nRota los cultivos. En temporadas lluviosas, un fungicida preventivo puede ayudar.</string>
+
+    <string name="cond_yellow_leaf_curl">Virus del rizado amarillo de la hoja</string>
+    <string name="about_yellow_leaf_curl">Un virus que transmite la mosca blanca. Las hojas se enrollan hacia arriba, se quedan pequeñas y se ponen amarillas por los bordes, y la planta deja de dar fruto. No tiene cura.</string>
+    <string name="care_yellow_leaf_curl">Arranca las plantas afectadas y mételas en una bolsa para que la mosca blanca no esparza el virus.\nControla la mosca blanca con trampas adhesivas amarillas, jabón insecticida o aceite de neem.\nCubre las plantas jóvenes con una malla fina contra insectos.\nLa próxima vez, planta variedades resistentes.</string>
+
+    <string name="cond_mosaic_virus">Virus del mosaico</string>
+    <string name="about_mosaic_virus">Un virus que deja en las hojas un dibujo a parches de verde claro y oscuro o amarillo, y las hojas también pueden enrollarse o arrugarse. Se contagia al tocar las plantas, con las herramientas y por insectos que chupan la savia. No tiene cura.</string>
+    <string name="care_mosaic_virus">Quita las plantas afectadas y tíralas a la basura. No las pongas en el compost.\nLávate las manos y limpia las herramientas después de tocar las plantas.\nControla los pulgones y otros insectos que chupan la savia.\nUsa variedades resistentes y semillas libres de virus.</string>
+
+    <string name="cond_cercospora_leaf_spot">Mancha por cercospora</string>
+    <string name="about_cercospora_leaf_spot">Un hongo que produce manchas redondas con el centro gris claro y los bordes oscuros, como un ojo de rana. Las hojas muy manchadas se caen antes de tiempo.</string>
+    <string name="care_cercospora_leaf_spot">Quita las hojas con manchas y las que ya se cayeron.\nRiega la tierra y evita mojar las hojas.\nNo pongas las plantas demasiado juntas.\nRota los cultivos. Rociar cobre puede frenar el contagio.</string>
+
+    <string name="cond_mites_thrips">Ácaros y trips</string>
+    <string name="about_mites_thrips">Plagas diminutas que se alimentan de las hojas. Las hojas se enrollan, se arrugan, tienen manchas plateadas o bronceadas y se quedan pequeñas.</string>
+    <string name="care_mites_thrips">Revisa debajo de las hojas y en los brotes nuevos, una lupa ayuda.\nRocía con jabón insecticida o aceite de neem cada 5 a 7 días.\nUsa trampas adhesivas azules o amarillas para atrapar los trips.\nQuita los brotes muy dañados y mantén a raya las malezas.</string>
+
+    <string name="cond_nutrient_deficiency">Falta de nutrientes</string>
+    <string name="about_nutrient_deficiency">A la planta le falta alimento. Si se pone amarilla entre las venas, salen hojas nuevas pálidas o aparecen tonos morados, normalmente le falta nitrógeno, magnesio, hierro u otro nutriente.</string>
+    <string name="care_nutrient_deficiency">Abona con un fertilizante equilibrado o con compost bien descompuesto.\nSi las hojas viejas se ponen amarillas entre las venas, prueba con sal de Epsom (magnesio), 1 cucharada en 4 litros de agua.\nAsegúrate de que la tierra no esté encharcada ni sea demasiado alcalina, las dos cosas impiden que las raíces absorban el alimento.\nUn kit sencillo de análisis de suelo te dice exactamente qué falta.</string>
+
+    <string name="cond_iris_yellow_spot">Virus de la mancha amarilla del iris</string>
+    <string name="about_iris_yellow_spot">Un virus que transmiten los trips de la cebolla. Produce manchas de color paja en forma de rombo en las hojas y puede hacer que los bulbos sean más pequeños.</string>
+    <string name="care_iris_yellow_spot">Controla los trips con jabón insecticida, aceite de neem y trampas adhesivas.\nQuita y destruye las plantas muy afectadas.\nMantén a raya las malezas, porque dan refugio a los trips.\nRota los cultivos y no siembres cebollas junto al bancal de cebollas de la temporada pasada.</string>
+
+    <string name="cond_purple_blotch">Mancha púrpura</string>
+    <string name="about_purple_blotch">Un hongo que produce pequeñas manchas blancas que crecen hasta formar manchas de color morado marrón con bordes amarillos, sobre todo con tiempo cálido y húmedo.</string>
+    <string name="care_purple_blotch">Quita las hojas afectadas y los restos viejos de cebolla.\nDeja espacio entre las plantas y riega por la mañana.\nNo te pases con el fertilizante de nitrógeno.\nRota los cultivos. Rociar cobre puede proteger las hojas.</string>
+
+    <string name="cond_insect_damage">Daño por insectos</string>
+    <string name="about_insect_damage">Hay insectos que muerden o chupan las hojas. Puede que veas agujeros, bordes rotos, restos pegajosos o los propios insectos.</string>
+    <string name="care_insect_damage">Mira debajo de las hojas y quita a mano las orugas, escarabajos o huevos.\nRocía con un chorro fuerte de agua, jabón insecticida o aceite de neem.\nPlanta flores cerca para atraer insectos útiles, como las mariquitas.\nUsa una malla fina para proteger de las plagas a las plantas jóvenes.</string>
+
+    <string name="cond_white_mold">Moho blanco</string>
+    <string name="about_white_mold">Un hongo que produce zonas blandas y empapadas cubiertas de un crecimiento blanco como algodón, a menudo con puntitos negros y duros por dentro.</string>
+    <string name="care_white_mold">Quita con cuidado las plantas afectadas y la tierra que las rodea.\nDeja espacio entre las plantas y no riegues de más.\nRiega por la mañana para que las plantas se sequen antes de la noche.\nDurante unos años, cultiva en ese lugar plantas como maíz o cebolla.</string>
+
+    <string name="cond_wilt">Marchitez</string>
+    <string name="about_wilt">La planta se queda caída aunque la tierra esté húmeda. A menudo un hongo o una bacteria tapa los tallos que llevan el agua, o las raíces están dañadas.</string>
+    <string name="care_wilt">Primero revisa la tierra: riega si está seca y mejora el drenaje si está empapada.\nCorta un tallo: si por dentro tiene rayas marrones, es señal de una enfermedad de marchitez.\nQuita las plantas muy marchitas y no plantes la misma especie ahí durante unos años.\nLa próxima vez, usa variedades resistentes o plantas injertadas.</string>
+
+    <string name="cond_bacterial_wilt">Marchitez bacteriana</string>
+    <string name="about_bacterial_wilt">Una enfermedad causada por bacterias que produce zonas blandas, amarillas y empapadas, y hace que la planta se caiga. En el poto, las hojas se ponen amarillas y los tallos pueden pudrirse.</string>
+    <string name="care_bacterial_wilt">Corta las hojas y los tallos afectados con tijeras limpias.\nDeja que la tierra se seque entre riegos y nunca dejes la maceta en agua.\nSi las raíces huelen mal o se ven marrones y blandas, trasplanta a un sustrato nuevo con buen drenaje.\nSi la planta está muy afectada, empieza una nueva con esquejes sanos.</string>
+
+    <string name="cond_manganese_toxicity">Exceso de manganeso</string>
+    <string name="about_manganese_toxicity">Hay demasiado manganeso en la tierra, muchas veces porque es ácida, está encharcada o tiene exceso de fertilizante. Las hojas tienen puntitos marrones y bordes amarillos.</string>
+    <string name="care_manganese_toxicity">Deja de abonar durante unas semanas.\nLava la maceta con mucha agua limpia y deja que escurra por completo.\nSi no mejora, trasplanta a un sustrato nuevo.\nA partir de ahora, usa un fertilizante equilibrado a la mitad de la dosis.</string>
+
+    <string name="cond_cordana_leaf_spot">Mancha por cordana</string>
+    <string name="about_cordana_leaf_spot">Un hongo que produce manchas ovaladas de color marrón claro con un anillo amarillo, normalmente en los bordes de la hoja.</string>
+    <string name="care_cordana_leaf_spot">Corta las hojas muy manchadas y llévatelas.\nMejora el drenaje y no pongas las plantas demasiado juntas.\nAbona con un fertilizante rico en potasio para fortalecer la planta.\nCon tiempo lluvioso, rociar cobre puede proteger las hojas nuevas.</string>
+
+    <string name="cond_pestalotiopsis">Mancha por pestalotiopsis</string>
+    <string name="about_pestalotiopsis">Un hongo que produce manchas de gris a marrón con bordes oscuros, a menudo en hojas débiles o dañadas.</string>
+    <string name="care_pestalotiopsis">Quita las hojas afectadas.\nEvita dañar las hojas y mantén la planta bien regada y abonada.\nMejora la circulación del aire alrededor de la planta.\nRociar cobre puede proteger las hojas nuevas.</string>
+
+    <string name="cond_sigatoka">Sigatoka</string>
+    <string name="about_sigatoka">Una enfermedad causada por un hongo que produce rayas amarillas que se convierten en zonas muertas marrones o negras y matan grandes partes de la hoja.</string>
+    <string name="care_sigatoka">Corta y retira las hojas muy afectadas.\nDeja espacio entre las plantas y quita los hijuelos que sobren.\nUn buen drenaje y un abonado equilibrado hacen que las plantas sean más fuertes.\nEn los años malos, puede hacer falta rociar con regularidad un fungicida o aceite mineral.</string>
+
+    <string name="cond_angular_leaf_spot">Mancha angular</string>
+    <string name="about_angular_leaf_spot">Un hongo que produce manchas marrones con bordes rectos y angulosos, encerradas entre las venas de la hoja.</string>
+    <string name="care_angular_leaf_spot">Quita las hojas afectadas y las plantas viejas de frijol.\nUsa semillas sanas de una fuente de confianza.\nNo toques las plantas cuando estén mojadas.\nDurante 2 años, cultiva en ese bancal algo que no sean frijoles.</string>
+
+    <string name="cond_leaf_curl">Rizado de la hoja</string>
+    <string name="about_leaf_curl">Normalmente es un virus que transmite la mosca blanca. Las hojas se enrollan hacia abajo, se arrugan y se vuelven gruesas y duras como el cuero, y la planta deja de crecer.</string>
+    <string name="care_leaf_curl">Quita las plantas muy afectadas.\nControla la mosca blanca con trampas adhesivas amarillas, aceite de neem o jabón insecticida.\nMantén a raya las malezas alrededor de la planta.\nEmpieza plantas nuevas a partir de plántulas sanas.</string>
+
+    <string name="cond_mealybugs">Cochinilla algodonosa</string>
+    <string name="about_mealybugs">Insectos pequeños, blancos y parecidos al algodón que chupan la savia. Dejan una melaza pegajosa y un moho negro (fumagina), y las hojas pueden enrollarse y ponerse amarillas.</string>
+    <string name="care_mealybugs">Quítalas con un bastoncillo de algodón mojado en alcohol.\nRocía cada semana con jabón insecticida o aceite de neem hasta que desaparezcan.\nControla las hormigas, porque protegen a las cochinillas.\nPoda las partes muy infestadas.</string>
+
+    <string name="cond_ringspot_virus">Virus de la mancha anular</string>
+    <string name="about_ringspot_virus">Un virus que transmiten los pulgones. Las hojas se llenan de manchas amarillas y pueden volverse estrechas y retorcidas, y la fruta muestra anillos oscuros. No tiene cura.</string>
+    <string name="care_ringspot_virus">Quita y destruye pronto las plantas afectadas.\nControla los pulgones con jabón insecticida o aceite de neem.\nNo cultives pepinos ni melones cerca, porque pueden portar el virus.\nCultiva variedades tolerantes y empieza con plántulas sanas.</string>
+
+    <string name="cond_anthracnose">Antracnosis</string>
+    <string name="about_anthracnose">Un hongo que produce manchas hundidas y empapadas que se vuelven de color café claro o marrón con bordes más oscuros.</string>
+    <string name="care_anthracnose">Quita las hojas afectadas y tíralas a la basura.\nRiega la tierra, no las hojas.\nRota los cultivos y retira los restos de plantas después de la cosecha.\nUsa semillas libres de enfermedades.</string>
+
+    <string name="cond_downy_mildew">Mildiu</string>
+    <string name="about_downy_mildew">Una enfermedad que produce manchas amarillas por encima de la hoja con una pelusa gris o morada por debajo, sobre todo con tiempo fresco y húmedo.</string>
+    <string name="care_downy_mildew">Quita las hojas afectadas.\nSepara las plantas para que circule mejor el aire.\nRiega al pie de la planta, por la mañana.\nRociar cobre puede proteger las hojas sanas. Elige variedades resistentes.</string>
+
+    <string name="cond_shot_hole">Cribado</string>
+    <string name="about_shot_hole">Una enfermedad causada por hongos o bacterias que produce manchitas rojizas que se desprenden, así que la hoja parece llena de agujeritos.</string>
+    <string name="care_shot_hole">Recoge y destruye las hojas caídas.\nPoda las ramitas afectadas con tiempo seco.\nEvita regar por encima de las hojas.\nRociar cobre en otoño, cuando caen las hojas, puede reducir la infección del año siguiente.</string>
+
+    <string name="cond_alternaria_leaf_spot">Mancha por alternaria</string>
+    <string name="about_alternaria_leaf_spot">Un hongo que produce manchas pequeñas, redondas y marrones, a veces con anillos más oscuros. Puede hacer que las hojas se caigan antes de tiempo en verano.</string>
+    <string name="care_alternaria_leaf_spot">Quita las hojas caídas.\nPoda para que circule bien el aire.\nMantén el árbol bien regado y abonado para que sufra menos.\nCon tiempo cálido y lluvioso, un fungicida preventivo puede ayudar.</string>
+
+    <string name="cond_aphids">Pulgones</string>
+    <string name="about_aphids">Insectos pequeños y blandos que se juntan bajo las hojas y en los brotes nuevos para chupar la savia. Las hojas se enrollan y se ponen pegajosas.</string>
+    <string name="care_aphids">Quítalos con un chorro de agua.\nRocía con jabón insecticida o aceite de neem.\nDales la bienvenida a las mariquitas y las crisopas, porque se comen los pulgones.\nNo te pases con el fertilizante de nitrógeno, porque produce los brotes tiernos que tanto les gustan.</string>
+
+    <string name="cond_leaf_blotch">Manchas grandes en la hoja</string>
+    <string name="about_leaf_blotch">Un hongo que produce pequeñas manchas amarillentas que se unen y forman grandes manchas marrones en los dos lados de la hoja.</string>
+    <string name="care_leaf_blotch">Quita y destruye las hojas afectadas.\nPlanta solo rizomas sanos.\nEvita que la tierra se encharque y deja espacio entre las plantas.\nRota los cultivos. Rociar cobre puede frenarla.</string>
+
+    <string name="cond_black_spot">Mancha negra</string>
+    <string name="about_black_spot">La enfermedad más común del rosal. Un hongo produce manchas negras redondas con bordes como plumas, y después las hojas se ponen amarillas y se caen.</string>
+    <string name="care_black_spot">Quita las hojas con manchas y recoge las que se hayan caído.\nRiega al pie de la planta por la mañana, nunca sobre las hojas.\nPoda para dejar el centro abierto y que circule bien el aire.\nRocía aceite de neem, azufre o un fungicida para rosales, y cultiva variedades resistentes.</string>
+
+    <string name="cond_dry_leaf">Hoja seca</string>
+    <string name="about_dry_leaf">La hoja se está secando. Las causas más comunes son poca agua, calor o viento, exceso de fertilizante o daño en las raíces.</string>
+    <string name="care_dry_leaf">Riega a fondo una o dos veces por semana en vez de un poco cada día.\nPon acolchado alrededor del pie para mantener la tierra húmeda y fresca.\nRevisa las raíces y el drenaje.\nQuita las hojas y los tallos secos.</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LeafCheck</string>
+    <string name="tagline">Toma una foto de una hoja. Descubre qué le pasa y qué puedes hacer.</string>
+    <string name="language">Idioma</string>
+    <string name="plant_label">¿Qué planta es?</string>
+    <string name="plant_auto">No estoy seguro, detéctala por mí</string>
+    <string name="take_photo">Tomar una foto</string>
+    <string name="pick_photo">Elegir de la galería</string>
+    <string name="supported">Funciona sin conexión con %1$d plantas. Ver la lista</string>
+    <string name="supported_title">Plantas que LeafCheck conoce</string>
+    <string name="tips_title">Consejos para una buena foto</string>
+    <string name="tips">Una sola hoja que ocupe casi toda la foto\nLuz de día, sin sombras fuertes\nLas manchas o el daño bien a la vista</string>
+    <string name="dashboard_title">Tu jardín</string>
+    <string name="stat_scans">Revisiones</string>
+    <string name="stat_healthy">Sanas</string>
+    <string name="stat_care">Necesitan cuidados</string>
+    <string name="top_issue">Problema más común: %1$s</string>
+    <string name="by_plant">Por planta</string>
+    <string name="plant_row">%1$d revisiones, %2$d necesitan cuidados</string>
+    <string name="recent">Revisiones recientes</string>
+    <string name="no_scans">Todavía no hay revisiones. Toma una foto de una hoja y tus resultados aparecerán aquí.</string>
+    <string name="clear_history">Borrar historial</string>
+    <string name="clear_confirm">¿Borrar todas las revisiones y fotos guardadas?</string>
+    <string name="delete">Borrar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">Aceptar</string>
+    <string name="analyzing">Revisando tu hoja...</string>
+    <string name="healthy_title">Se ve sana</string>
+    <string name="care_title">Necesita cuidados</string>
+    <string name="unknown_title">¿No es una hoja?</string>
+    <string name="confidence">%1$d%% de certeza</string>
+    <string name="low_confidence">LeafCheck no está seguro con esta. Prueba con una foto más cercana y nítida de una sola hoja con luz de día, o indícale qué planta es.</string>
+    <string name="about">¿Qué es?</string>
+    <string name="what_to_do">Qué puedes hacer</string>
+    <string name="other_matches">Otras posibilidades</string>
+    <string name="disclaimer">LeafCheck es una ayuda, no un análisis de laboratorio. Si se trata de plantas valiosas o de un problema grave, consulta en un vivero o en la oficina agrícola de tu zona. Sigue siempre las instrucciones de la etiqueta de cualquier producto que rocíes.</string>
+    <string name="scan_again">Revisar otra hoja</string>
+    <string name="error_image">No se pudo abrir esa foto. Prueba con otra.</string>
+    <string name="no_camera">No se encontró ninguna app de cámara en este teléfono.</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <color name="green">#2E7D32</color>
+    <color name="green_dark">#1B5E20</color>
+    <color name="green_light">#E6F2E3</color>
+    <color name="bg">#F4F7F1</color>
+    <color name="card">#FFFFFF</color>
+    <color name="ink">#1C2B1F</color>
+    <color name="muted">#5F6D61</color>
+    <color name="line">#E3E8E0</color>
+    <color name="care">#B85413</color>
+    <color name="care_light">#FBEDE2</color>
+</resources>

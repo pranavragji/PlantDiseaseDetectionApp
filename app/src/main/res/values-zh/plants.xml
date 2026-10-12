@@ -1,0 +1,216 @@
+<resources>
+    <string name="crop_none">无植物</string>
+    <string name="crop_apple">苹果</string>
+    <string name="crop_banana">香蕉</string>
+    <string name="crop_bean">豆角</string>
+    <string name="crop_bell_pepper">甜椒</string>
+    <string name="crop_blueberry">蓝莓</string>
+    <string name="crop_cherry">樱桃</string>
+    <string name="crop_chili">辣椒</string>
+    <string name="crop_corn">玉米</string>
+    <string name="crop_eggplant">茄子</string>
+    <string name="crop_grape">葡萄</string>
+    <string name="crop_money_plant">绿萝</string>
+    <string name="crop_onion">洋葱</string>
+    <string name="crop_orange">橙子和柑橘</string>
+    <string name="crop_papaya">木瓜</string>
+    <string name="crop_peach">桃子</string>
+    <string name="crop_plum">李子</string>
+    <string name="crop_potato">土豆</string>
+    <string name="crop_raspberry">树莓</string>
+    <string name="crop_rose">玫瑰</string>
+    <string name="crop_soybean">大豆</string>
+    <string name="crop_spinach">菠菜</string>
+    <string name="crop_squash">南瓜和西葫芦</string>
+    <string name="crop_strawberry">草莓</string>
+    <string name="crop_tomato">番茄</string>
+    <string name="crop_turmeric">姜黄</string>
+
+    <string name="cond_healthy">健康</string>
+    <string name="about_healthy">这片叶子上没有发现病害或虫害的迹象。照顾得很好！</string>
+    <string name="care_healthy">浇水时浇在植株根部，不要浇在叶子上。\n每周检查几片叶子的正面和背面。\n摘掉枯叶和黄叶，让植株周围通风。\n在生长季节施堆肥或均衡肥料。</string>
+
+    <string name="cond_no_leaf">没有找到叶子</string>
+    <string name="about_no_leaf">LeafCheck 在这张照片里没有找到植物叶子。</string>
+    <string name="care_no_leaf">让一片叶子占满大部分画面。\n在自然光下拍摄，避免强烈的阴影。\n拿稳手机，让叶子清晰对焦。</string>
+
+    <string name="cond_scab">黑星病</string>
+    <string name="about_scab">一种真菌病害，会在叶子上留下橄榄褐色、像绒毛一样的斑点，在果实上留下深色、像软木一样的斑块。在凉爽潮湿的春季容易传播。</string>
+    <string name="care_scab">秋天把落叶扫起来扔进垃圾桶，因为真菌会在落叶里过冬。\n修剪树枝，让树冠通透，雨后叶子能很快变干。\n春季多雨时，在萌芽期喷一次硫磺或铜制剂，可以保护新叶。\n买新树苗时，选择抗黑星病的品种。</string>
+
+    <string name="cond_black_rot">黑腐病</string>
+    <string name="about_black_rot">一种真菌病害，会让叶子长出带紫色边缘的褐色斑点，并让果实腐烂，最后干缩成又硬又黑的僵果。</string>
+    <string name="care_black_rot">摘掉并销毁干缩的僵果和有斑点的叶子。\n剪掉枯死或受损的枝条。\n让植株保持通透，雨后能很快变干。\n病害严重的年份，从生长季早期开始喷保护性杀菌剂会有帮助。</string>
+
+    <string name="cond_cedar_rust">苹果锈病</string>
+    <string name="about_cedar_rust">一种真菌，需要苹果树和附近的桧柏或雪松才能完成生命周期。它会在苹果叶上形成鲜艳的橙黄色斑点。</string>
+    <string name="care_cedar_rust">春天检查附近的桧柏，如果看到橙色、果冻状的东西，就把它剪掉。\n摘掉斑点很多的叶子。\n如果附近有桧柏，就种抗锈病的苹果品种。\n在高风险地区，从粉红花蕾期开始喷杀菌剂可以保护叶子。</string>
+
+    <string name="cond_powdery_mildew">白粉病</string>
+    <string name="about_powdery_mildew">一种真菌，会让叶子上覆盖一层像面粉一样的白色粉末。它喜欢白天温暖、夜晚凉爽、植株拥挤的环境，会慢慢削弱植物。</string>
+    <string name="care_powdery_mildew">摘掉病得最重的叶子扔掉，不要放进堆肥。\n给植物更多的空间和阳光，让空气流通。\n早上浇水，浇在土里，不要浇在叶子上。\n每 7 到 10 天喷一次稀释的牛奶（1 份牛奶兑 9 份水）、碳酸氢钾、硫磺或印楝油。</string>
+
+    <string name="cond_gray_leaf_spot">灰斑病</string>
+    <string name="about_gray_leaf_spot">一种真菌病害，会在叶脉之间形成细长的灰褐色斑块。天气潮湿、或者每年都在同一个地方种玉米时最严重。</string>
+    <string name="care_gray_leaf_spot">明年不要在同一块地里种玉米。\n收获后清理掉旧的玉米秆。\n选择抗病品种。\n植株之间留出间距，让叶子能很快变干。</string>
+
+    <string name="cond_rust">锈病</string>
+    <string name="about_rust">一种真菌，会长出小小的、凸起的锈橙褐色小包。用手指一搓，粉末就会沾到手上。</string>
+    <string name="care_rust">尽早摘掉染病的叶子扔进垃圾桶。\n浇水时不要把叶子弄湿。\n植株潮湿时不要在里面干活，这样会传播孢子。\n下一季轮作，并种植抗病品种。喷硫磺可以减缓病情。</string>
+
+    <string name="cond_leaf_blight">叶枯病</string>
+    <string name="about_leaf_blight">一种真菌病害，会形成又大又长的灰绿色或褐色斑块，让叶子干枯。</string>
+    <string name="care_leaf_blight">摘掉并销毁染病的叶子和残留的旧植株。\n至少轮作一年。\n在一天中较早的时候浇水，浇在土里，不要浇在叶子上。\n给植株留出空间，让叶子快速变干，并选择抗病品种。</string>
+
+    <string name="cond_esca">葡萄黑麻疹病</string>
+    <string name="about_esca">一种葡萄藤的木质部病害。叶脉之间会出现黄色或红色的条纹，像老虎的花纹一样，果粒上也可能出现深色小斑点。</string>
+    <string name="care_esca">给染病的葡萄藤做好标记，在天气干燥时最后修剪它们。\n把枯死的枝条从病变下方较远处剪掉并清走。\n封住较大的修剪伤口。\n给葡萄藤充足的肥料和水分。病得很重的葡萄藤可能需要换掉。</string>
+
+    <string name="cond_leaf_spot">叶斑病</string>
+    <string name="about_leaf_spot">由真菌或细菌引起的斑点，开始很小，后来会扩大成褐色或深色的斑块，有时外面有一圈黄色。叶子可能会变黄并掉落。</string>
+    <string name="care_leaf_spot">摘掉有斑点的叶子扔掉。\n在一天中较早的时候浇水，浇在根部。\n给植株留出间距并修剪，让空气流通。\n喷铜制剂可以减缓传播。季末清理掉残留的植株。</string>
+
+    <string name="cond_citrus_greening">柑橘黄龙病</string>
+    <string name="about_citrus_greening">一种严重的细菌病害（黄龙病），由一种叫柑橘木虱的小虫传播。叶子会出现斑驳、不均匀的黄色斑块，果实长不大，形状歪斜，味道发苦。目前无法治愈。</string>
+    <string name="care_citrus_greening">联系当地的农业部门，很多地方规定发现这种病必须上报。\n用杀虫皂或园艺油控制新梢上的木虱。\n染病的树通常需要移除，以免传染给其他树。\n只购买经过认证的无病柑橘苗。</string>
+
+    <string name="cond_bacterial_spot">细菌性斑点病</string>
+    <string name="about_bacterial_spot">一种细菌病害，会在叶子上（有时也在果实上）形成深色、像水浸过一样的小斑点。在温暖潮湿的天气和溅水的情况下传播很快。</string>
+    <string name="care_bacterial_spot">摘掉有斑点的叶子，不要放进堆肥。\n浇水浇在土里，不要浇在叶子上，避免用喷头喷洒。\n植株潮湿时不要触碰。\n喷铜制剂可以减缓病情。下一季使用干净的种子并轮作。</string>
+
+    <string name="cond_early_blight">早疫病</string>
+    <string name="about_early_blight">一种真菌，会形成带同心圆纹的褐色斑点，像靶子一样，通常先出现在最老、最下面的叶子上。之后叶子会变黄并掉落。</string>
+    <string name="care_early_blight">摘掉下部有斑点的叶子。\n在土壤表面铺一层覆盖物，防止孢子溅到叶子上。\n浇水浇在根部，保持叶子干燥。\n轮作 2 到 3 年。喷铜制剂可以保护新长出的部分。</string>
+
+    <string name="cond_late_blight">晚疫病</string>
+    <string name="about_late_blight">一种扩散很快的病害，就是当年造成爱尔兰大饥荒的那种。叶子上会出现大片油腻状的深色斑块，潮湿天气时叶背常有白色绒毛。它可以在几天内让整株植物死掉。</string>
+    <string name="care_late_blight">要尽快行动：拔掉染病的植株，装袋后扔进垃圾桶。不要放进堆肥。\n每天检查附近的番茄和土豆植株。\n保持叶子干燥，给植株留出空间。\n喷铜制剂可以保护健康的植株。不要用染病植株的土豆做种薯。</string>
+
+    <string name="cond_leaf_scorch">叶焦病</string>
+    <string name="about_leaf_scorch">一种真菌，会形成许多紫色小斑点，这些斑点连成一片，直到叶子看起来像被烧焦一样并干枯。</string>
+    <string name="care_leaf_scorch">收获后摘掉老的染病叶子。\n及时除草，不要让植株太拥挤。\n早上浇水，浇在土里。\n每隔几年换种健康的抗病植株。</string>
+
+    <string name="cond_leaf_mold">叶霉病</string>
+    <string name="about_leaf_mold">一种在温室等潮湿环境中出现的真菌。叶子正面会出现淡黄色斑点，背面长出橄榄绿色或褐色的绒毛。</string>
+    <string name="care_leaf_mold">降低湿度：打开通风口或门，让植株间隔开。\n摘掉染病的叶子。\n浇水浇在土里，不要浇在叶子上。\n如果反复发生，就种植抗病品种。</string>
+
+    <string name="cond_septoria_leaf_spot">斑枯病</string>
+    <string name="about_septoria_leaf_spot">一种真菌，会形成许多小圆斑，边缘深色，中间浅灰色，先从下部的叶子开始。</string>
+    <string name="care_septoria_leaf_spot">一发现下部叶子有斑点就马上摘掉。\n铺覆盖物，防止泥土溅到叶子上。\n浇水浇在根部，并用支架把植株撑离地面。\n季末清理残留的植株，并轮作。</string>
+
+    <string name="cond_spider_mites">红蜘蛛</string>
+    <string name="about_spider_mites">一种很小的吸汁螨虫，生活在叶子背面。叶子上会出现细小的黄色斑点，还可能看到细细的蛛网。它们喜欢炎热干燥的天气。</string>
+    <string name="care_spider_mites">每隔几天用强水流冲洗叶子背面。\n提高植株周围的湿度。\n使用杀虫皂或印楝油，一定要喷到叶子背面。\n摘掉虫害严重的叶子。</string>
+
+    <string name="cond_target_spot">靶斑病</string>
+    <string name="about_target_spot">一种真菌，会形成带浅色圆圈的褐色斑点，和早疫病很像。它也会在果实上留下斑痕。</string>
+    <string name="care_target_spot">摘掉染病的叶子，清理残留的植株。\n修剪下部的叶子，让空气更流通。\n在一天中较早的时候浇水，浇在根部。\n轮作。雨水多的季节喷保护性杀菌剂会有帮助。</string>
+
+    <string name="cond_yellow_leaf_curl">黄化曲叶病毒病</string>
+    <string name="about_yellow_leaf_curl">一种由粉虱传播的病毒。叶子向上卷曲，长不大，叶缘发黄，植株也不再结果。目前无法治愈。</string>
+    <string name="care_yellow_leaf_curl">拔掉染病的植株并装袋，防止粉虱传播病毒。\n用黄色粘虫板、杀虫皂或印楝油控制粉虱。\n用细密的防虫网罩住幼苗。\n下次种植抗病品种。</string>
+
+    <string name="cond_mosaic_virus">花叶病毒病</string>
+    <string name="about_mosaic_virus">一种病毒，会让叶子出现浅绿和深绿（或黄色）相间的斑驳花纹，叶子还可能卷曲或起皱。它通过接触、工具和吸汁昆虫传播。目前无法治愈。</string>
+    <string name="care_mosaic_virus">拔掉染病的植株，扔进垃圾桶。不要放进堆肥。\n接触植物后要洗手、清洗工具。\n控制蚜虫和其他吸汁昆虫。\n使用抗病品种和无病毒的种子。</string>
+
+    <string name="cond_cercospora_leaf_spot">尾孢叶斑病</string>
+    <string name="about_cercospora_leaf_spot">一种真菌，会形成中间浅灰色、边缘深色的圆斑，像青蛙的眼睛一样。斑点很多的叶子会提早掉落。</string>
+    <string name="care_cercospora_leaf_spot">摘掉有斑点的叶子，清理落叶。\n浇水浇在土里，避免弄湿叶子。\n不要让植株太拥挤。\n轮作。喷铜制剂可以减缓传播。</string>
+
+    <string name="cond_mites_thrips">螨虫和蓟马</string>
+    <string name="about_mites_thrips">以叶子为食的微小害虫。叶子会卷曲、起皱，出现银色或古铜色的斑块，而且长不大。</string>
+    <string name="care_mites_thrips">检查叶子背面和新梢，用放大镜会更容易看清。\n每 5 到 7 天喷一次杀虫皂或印楝油。\n用蓝色或黄色粘虫板诱捕蓟马。\n剪掉受害严重的新梢，及时除草。</string>
+
+    <string name="cond_nutrient_deficiency">缺乏营养</string>
+    <string name="about_nutrient_deficiency">植物“吃不饱”了。叶脉之间发黄、新叶颜色浅或带紫色，通常说明它缺少氮、镁、铁或其他养分。</string>
+    <string name="care_nutrient_deficiency">施均衡肥料或充分腐熟的堆肥。\n如果老叶的叶脉之间发黄，可以试试泻盐（硫酸镁），4 升水兑 1 汤匙。\n确保土壤不积水、碱性不太强，这两种情况都会让根部吸收不了养分。\n用简单的土壤检测套装就能准确知道缺什么。</string>
+
+    <string name="cond_iris_yellow_spot">鸢尾黄斑病毒病</string>
+    <string name="about_iris_yellow_spot">一种由洋葱蓟马传播的病毒。它会在叶子上形成稻草色的菱形斑块，还可能让洋葱头变小。</string>
+    <string name="care_iris_yellow_spot">用杀虫皂、印楝油和粘虫板控制蓟马。\n拔掉并销毁病得很重的植株。\n及时除草，杂草会给蓟马提供藏身之处。\n轮作，不要在上一季种过洋葱的地块旁边种洋葱。</string>
+
+    <string name="cond_purple_blotch">紫斑病</string>
+    <string name="about_purple_blotch">一种真菌，会先形成白色小斑点，然后扩大成带黄色边缘的紫褐色斑块，多发生在温暖潮湿的天气。</string>
+    <string name="care_purple_blotch">摘掉染病的叶子，清理残留的旧洋葱植株。\n给植株留出间距，早上浇水。\n不要施太多氮肥。\n轮作。喷铜制剂可以保护叶子。</string>
+
+    <string name="cond_insect_damage">虫害</string>
+    <string name="about_insect_damage">有昆虫在啃食或吸食叶子。你可能会看到孔洞、参差不齐的边缘、黏糊糊的残留物，或者看到虫子本身。</string>
+    <string name="care_insect_damage">查看叶子背面，把毛毛虫、甲虫或虫卵摘掉。\n用强水流、杀虫皂或印楝油喷洒。\n在附近种些花，吸引瓢虫等益虫。\n用细密的网罩住幼苗，防止害虫靠近。</string>
+
+    <string name="cond_white_mold">白霉病</string>
+    <string name="about_white_mold">一种真菌，会形成柔软、像水浸过一样的斑块，上面覆盖着白色棉絮状的东西，里面常有坚硬的黑色小颗粒。</string>
+    <string name="care_white_mold">小心地移除染病的植株和它周围的泥土。\n给植株留出空间，不要浇水过多。\n早上浇水，让植株在晚上之前变干。\n接下来几年，在那块地改种玉米或洋葱等作物。</string>
+
+    <string name="cond_wilt">萎蔫</string>
+    <string name="about_wilt">即使土壤是湿的，植物也耷拉着。通常是真菌或细菌堵住了输送水分的茎，或者是根部受损了。</string>
+    <string name="care_wilt">先检查土壤：干了就浇水，太湿就改善排水。\n切开一段茎：如果里面有褐色条纹，说明是枯萎类病害。\n拔掉萎蔫严重的植株，几年内不要在那里种同类植物。\n下次使用抗病品种或嫁接苗。</string>
+
+    <string name="cond_bacterial_wilt">细菌性枯萎病</string>
+    <string name="about_bacterial_wilt">一种细菌病害，会形成柔软、发黄、像水浸过一样的斑块，并让植株耷拉下来。绿萝得了这种病，叶子会变黄，茎也可能腐烂。</string>
+    <string name="care_bacterial_wilt">用干净的剪刀剪掉染病的叶子和茎。\n两次浇水之间让土壤变干，不要让花盆泡在水里。\n如果根部有臭味，或者看起来发褐、软烂，就换上新的、排水好的土重新上盆。\n如果植株病得很重，就用健康的枝条重新扦插一盆。</string>
+
+    <string name="cond_manganese_toxicity">锰过量</string>
+    <string name="about_manganese_toxicity">土壤里的锰太多了，通常是因为土壤偏酸、积水或施肥过多。叶子会出现褐色小斑点，叶缘发黄。</string>
+    <string name="care_manganese_toxicity">停止施肥几周。\n用大量清水冲洗花盆，让水完全排干。\n如果没有好转，就换新的盆栽土重新上盆。\n以后使用均衡肥料，并按一半浓度施用。</string>
+
+    <string name="cond_cordana_leaf_spot">香蕉暗双孢叶斑病</string>
+    <string name="about_cordana_leaf_spot">一种真菌，会形成带黄色圆圈的椭圆形浅褐色斑点，通常出现在叶子边缘。</string>
+    <string name="care_cordana_leaf_spot">剪掉斑点很多的叶子并清走。\n改善排水，不要让植株太拥挤。\n施富含钾的肥料，让植株更强壮。\n雨水多的时候，喷铜制剂可以保护新叶。</string>
+
+    <string name="cond_pestalotiopsis">拟盘多毛孢叶斑病</string>
+    <string name="about_pestalotiopsis">一种真菌，会形成边缘深色的灰色到褐色斑点，常出现在虚弱或受损的叶子上。</string>
+    <string name="care_pestalotiopsis">摘掉染病的叶子。\n避免弄伤叶子，保证植株水分和养分充足。\n改善植株周围的通风。\n喷铜制剂可以保护新叶。</string>
+
+    <string name="cond_sigatoka">香蕉叶斑病</string>
+    <string name="about_sigatoka">一种真菌病害，会形成黄色条纹，之后变成褐色或黑色的坏死斑块，让叶子大面积枯死。</string>
+    <string name="care_sigatoka">剪掉并清走病得很重的叶子。\n植株之间保持间距，去掉多余的吸芽。\n良好的排水和均衡施肥能让植株更强壮。\n病害严重的年份，可能需要定期喷杀菌剂或矿物油。</string>
+
+    <string name="cond_angular_leaf_spot">角斑病</string>
+    <string name="about_angular_leaf_spot">一种真菌，会形成边缘笔直、有棱角的褐色斑点，被叶脉围成一个个小方块。</string>
+    <string name="care_angular_leaf_spot">摘掉染病的叶子，清理旧的豆角植株。\n使用来源可靠的干净种子。\n植株潮湿时不要触碰。\n这块地 2 年内改种豆类以外的作物。</string>
+
+    <string name="cond_leaf_curl">卷叶病</string>
+    <string name="about_leaf_curl">通常是由粉虱传播的病毒引起的。叶子向下卷曲、起皱，变得又厚又硬，像皮革一样，植株也停止生长。</string>
+    <string name="care_leaf_curl">拔掉病得很重的植株。\n用黄色粘虫板、印楝油或杀虫皂控制粉虱。\n及时清除植株周围的杂草。\n用健康的幼苗重新种植。</string>
+
+    <string name="cond_mealybugs">粉蚧</string>
+    <string name="about_mealybugs">一种白色、像棉絮一样的小虫，会吸食汁液。它们会留下黏糊糊的蜜露和黑色的煤污，叶子可能会卷曲、变黄。</string>
+    <string name="care_mealybugs">用棉签蘸医用酒精把它们擦掉。\n每周喷一次杀虫皂或印楝油，直到它们消失为止。\n控制蚂蚁，因为蚂蚁会保护粉蚧。\n剪掉虫害严重的部分。</string>
+
+    <string name="cond_ringspot_virus">环斑病毒病</string>
+    <string name="about_ringspot_virus">一种由蚜虫传播的病毒。叶子出现黄色斑驳，可能变窄、扭曲，果实上会出现深色圆环。目前无法治愈。</string>
+    <string name="care_ringspot_virus">尽快拔掉并销毁染病的植株。\n用杀虫皂或印楝油控制蚜虫。\n不要在附近种黄瓜或甜瓜，它们可能携带这种病毒。\n种植耐病品种，从健康的幼苗开始种。</string>
+
+    <string name="cond_anthracnose">炭疽病</string>
+    <string name="about_anthracnose">一种真菌，会形成凹陷、像水浸过一样的斑点，之后变成浅褐色或褐色，边缘颜色更深。</string>
+    <string name="care_anthracnose">摘掉染病的叶子扔进垃圾桶。\n浇水浇在土里，不要浇在叶子上。\n轮作，收获后清理残留的植株。\n使用无病的种子。</string>
+
+    <string name="cond_downy_mildew">霜霉病</string>
+    <string name="about_downy_mildew">一种病害，会在叶子正面形成黄色斑块，背面长出灰色或紫色的绒毛，在凉爽潮湿的天气尤其常见。</string>
+    <string name="care_downy_mildew">摘掉染病的叶子。\n让植株间隔开，改善通风。\n早上浇水，浇在根部。\n喷铜制剂可以保护健康的叶子。选择抗病品种。</string>
+
+    <string name="cond_shot_hole">穿孔病</string>
+    <string name="about_shot_hole">一种由真菌或细菌引起的病害，会形成红色小斑点，斑点脱落后，叶子看起来就像布满了小洞。</string>
+    <string name="care_shot_hole">把落叶扫起来销毁。\n在天气干燥时剪掉染病的细枝。\n浇水时不要淋到叶子上。\n秋天落叶时喷一次铜制剂，可以减少第二年的感染。</string>
+
+    <string name="cond_alternaria_leaf_spot">斑点落叶病</string>
+    <string name="about_alternaria_leaf_spot">一种真菌，会形成褐色小圆斑，有时带深色圆环。它会让叶子在夏天提早掉落。</string>
+    <string name="care_alternaria_leaf_spot">清理落叶。\n修剪枝条，让空气流通。\n给树充足的水分和肥料，减轻压力。\n在温暖多雨的季节，喷保护性杀菌剂可能会有帮助。</string>
+
+    <string name="cond_aphids">蚜虫</string>
+    <string name="about_aphids">一种身体柔软的小虫，成群聚集在叶子背面和新梢上吸食汁液。叶子会卷曲、发黏。</string>
+    <string name="care_aphids">用水流把它们冲掉。\n喷杀虫皂或印楝油。\n欢迎瓢虫和草蛉，它们会吃蚜虫。\n不要施太多氮肥，否则会长出蚜虫最爱的嫩芽。</string>
+
+    <string name="cond_leaf_blotch">叶枯斑病</string>
+    <string name="about_leaf_blotch">一种真菌，会形成淡黄色小斑点，这些斑点连成一片，在叶子两面形成大块的褐色斑块。</string>
+    <string name="care_leaf_blotch">摘掉并销毁染病的叶子。\n只种健康的根茎。\n避免土壤积水，让植株间隔开。\n轮作。喷铜制剂可以减缓病情。</string>
+
+    <string name="cond_black_spot">黑斑病</string>
+    <string name="about_black_spot">玫瑰最常见的病害。真菌会形成边缘呈羽毛状的黑色圆斑，之后叶子变黄并掉落。</string>
+    <string name="care_black_spot">摘掉有斑点的叶子，清理掉落的叶子。\n早上浇水，浇在根部，千万不要浇在叶子上。\n修剪成中间通透的形状，让空气流通。\n喷印楝油、硫磺或玫瑰专用杀菌剂，并种植抗病品种。</string>
+
+    <string name="cond_dry_leaf">叶片干枯</string>
+    <string name="about_dry_leaf">叶子正在变干。常见原因有缺水、高温或大风、施肥过多，或者根部受损。</string>
+    <string name="care_dry_leaf">每周浇透水一到两次，而不是每天浇一点。\n在根部周围铺覆盖物，让土壤保持湿润凉爽。\n检查根部和排水情况。\n剪掉枯死的叶子和茎。</string>
+</resources>
