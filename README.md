@@ -185,7 +185,11 @@ The model learned from these open datasets. Thank you to everyone who photograph
 | [Rose leaf set](https://huggingface.co/datasets/Project-AgML/roseleafset_disease_classification) | rose | CC BY 4.0 |
 | [PlantDoc](https://huggingface.co/datasets/Project-AgML/plant_doc_classification) (Singh et al., 2020) | real garden photos: half used for training, 40% kept aside as the real-world test | CC BY-SA 4.0 |
 
-The Project-AgML copies are mirrors maintained by the [AgML](https://github.com/Project-AgML/AgML) project; each dataset card there links to its original authors. Because PlantVillage is share-alike, the trained model file is shared under CC BY-SA as well.
+The Project-AgML copies are mirrors maintained by the [AgML](https://github.com/Project-AgML/AgML) project; each dataset card there links to its original authors. Because PlantVillage and PlantDoc are share-alike, the trained model file is shared under CC BY-SA 4.0 (see License).
+
+## License
+
+The app code and the training scripts are under the [MIT License](LICENSE). The trained model (`app/src/main/assets/model.tflite`) is shared under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), because it learned from share-alike data (PlantVillage and PlantDoc, see above).
 
 ## A friendly warning
 
